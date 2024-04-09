@@ -1,0 +1,17 @@
+html,body,#app{width: 100% !important;}
+.nav{width: 100%;height: auto !important;}
+.centerBox{width: 100% !important;}
+.flexBox{display: block !important;}
+/* .flexBox li{display: inline-block;} */
+.rightBar{right: 100px !important;}
+.centerImg,.contentBox{width: 90% !important;}
+.bigBj{height: auto !important;}
+.toggleNav{display: block !important;position: absolute;right: 20px;top: 10px;}
+.toggleNav img{width: 40px;transition: all 0.3s ease-in;}
+.toggleHeight{height: 100px;overflow: hidden;}
+.toggleArrow img{transform: rotate(90deg);}
+
+.itemList,.mb20,.mb20,.redTitle,.Map{width: 90% !important;}
+.itemList .item{width: 30% !important;height: auto !important;padding-bottom: 20px !important;}
+.mb20{margin: 0 auto;}
+.redTitle{margin:30px auto !important; }
