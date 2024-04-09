@@ -3,7 +3,7 @@
     <img src="../assets/image/2025.png" class="centerImg" />
     <div class="contentBox">
       <div class="title" style="padding: 50px 0 0">
-        <h2>欢迎词</h2>
+        <h2>欢迎词2</h2>
         <h3>组织委员会</h3>
       </div>
       <div class="content">
