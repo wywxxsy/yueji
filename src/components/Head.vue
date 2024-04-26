@@ -25,7 +25,7 @@
             <router-link to="/#wyh">委员会</router-link>
           </li>
           <li :class="isNav == 7 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#section7">参观</router-link>
+            <router-link to="/Show">参观</router-link>
           </li>
           <li :class="isNav == 8 ? 'curNav' : ''" @click="changeNavToggle()">
             <router-link  :to="'/Live'">会议LIVE</router-link>

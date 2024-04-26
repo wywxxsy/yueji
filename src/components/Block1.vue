@@ -1,5 +1,5 @@
 <template>
-  <div class="bigBj">
+  <div class="bigBj" id="hyc">
     <img src="../assets/image/2025.png" class="centerImg" />
     <div class="contentBox">
       <div class="title" style="padding: 50px 0 0">

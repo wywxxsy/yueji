@@ -17,43 +17,6 @@
           >Acta Horticulturae指南</a
         >
       </div>
-      <RedTitle :titleCont="title2"></RedTitle>
-      <div class="descBox">
-        <p class="mb20">● 仅审查以英文提交的摘要。</p>
-        <p class="mb20">● 摘要不得超过300字。</p>
-        <p class="mb20">● 摘要不得包含表格、图片或图表。</p>
-        <p class="mb20">● 所有缩略词必须在首次使用时拼写全称。</p>
-        <p class="mb20">● 应彻底检查摘要的拼写和语法。</p>
-        <p class="mb20">
-          ●
-          摘要提交费用应在提交摘要时支付，仅适用于提交作者。对于ISHS个人会员，完全免除提交摘要的费用。
-        </p>
-        <p class="mb20">
-          ●
-          尚未注册ISHS帐户的人：首先 <a href=""
-            class="redBtn" target="_blank">创建ISHS用户帐户</a>，付款并激活您的帐户后，可以开始<a href="https://www.actahort.org/members/symposiar?nr=744" target="_blank" class="redTxt">提交摘要</a>。
-        </p>
-        <p class="mb20">
-          ●
-          摘要必须始终由提交作者使用自己的个人ISHS帐户提交。严禁代表其他作者提交摘要或使用其他作者的ISHS帐户。
-        </p>
-        <p class="mb20">
-          ● 所有口头报告人，必须根据《Acta
-          Horticulturae》指南于2025年3月1日前提交手稿至《Acta
-          Horticulturae》。强烈鼓励海报作者为《Acta
-          Horticulturae》准备并提交手稿。
-        </p>
-        <p class="mb20">
-          ●
-          接收摘要（包括口头报告及海报）的作者必须在2024年12月31日前注册参加第9届国际月季大会。如果未能注册参加会议，您的摘要将被从研讨会计划中撤回，您的手稿将被从《Acta
-          Horticulturae》中撤回。
-        </p>
-
-        <h3>语言：</h3>
-        <p class="mb40">
-          第9届国际月季大会官方语言为英语，开幕式和闭幕式将提供中英文同声传译服务，所有其他环节均为英语。
-        </p>
-      </div>
       <RedTitle :titleCont="title3"></RedTitle>
       <div class="flexBox">
         <div class="wid30">
@@ -85,6 +48,47 @@
         </div>
       </div>
      
+      <RedTitle :titleCont="title2"></RedTitle>
+      <div class="descBox">
+        <p class="mb20">● 仅审查以英文提交的摘要。</p>
+        <p class="mb20">● 摘要不得超过300字。</p>
+        <p class="mb20">● 摘要不得包含表格、图片或图表。</p>
+        <p class="mb20">● 所有缩略词必须在首次使用时拼写全称。</p>
+        <p class="mb20">● 应彻底检查摘要的拼写和语法。</p>
+        <p class="mb20">
+          ●
+          摘要提交费用应在提交摘要时支付，仅适用于提交作者。对于ISHS个人会员，完全免除提交摘要的费用。
+        </p>
+        <p class="mb20">
+          ●
+          尚未注册ISHS帐户的人：首先 <a href=""
+            class="redBtn" target="_blank">创建ISHS用户帐户</a>，付款并激活您的帐户后，可以开始<a href="https://www.actahort.org/members/symposiar?nr=744" target="_blank" class="redTxt">提交摘要</a>。
+        </p>
+        <p class="mb20">
+          ●
+          摘要必须始终由提交作者使用自己的个人ISHS帐户提交。严禁代表其他作者提交摘要或使用其他作者的ISHS帐户。
+        </p>
+        <p class="mb20">
+          ● 所有口头报告人，必须根据《Acta Horticulturae》指南于2025年3月1日前提交手稿至《Acta Horticulturae》。未能提交手稿的口头报告人可能会被拒绝进行汇报。强烈鼓励海报作者为《Acta Horticulturae》准备并提交手稿。
+        </p>
+        <p class="mb20">
+          ●
+          接收摘要（包括口头报告及海报）的作者必须在2024年12月31日前注册参加第9届国际月季大会。如果未能注册参加会议，您的摘要将被从研讨会计划中撤回，您的手稿将被从《ActaHorticulturae》中撤回。
+        </p>
+
+        <h3>语言：</h3>
+        <p class="mb60">
+          第9届国际月季大会官方语言为英语，开幕式和闭幕式将提供中英文同声传译服务，所有其他环节均为英语。
+        </p>
+      </div>
+      <RedTitle :titleCont="title4"></RedTitle>
+      <div class="descBox">
+        <p class="mb20">本次大会为青年学者设立两项<a href="https://www.ishs.org/young-minds-award" target="_blank" class="redTxt">青年科学家奖：</a></p>
+        <p class="mb20">1. 最佳口头报告奖将授予以第一作者投稿论文并做口头报告的青年学者。</p>
+        <p class="mb20">2. 最佳海报奖将授予以第一作者进行海报展示的青年学者。
+召集人和国际园艺学会代表将成立一个特别委员会，负责评选获奖者。有资格获得该奖项的青年学者必须是提交材料的主要作者，并且应该在大学、学院或研究机构注册。他/她可以是本科生、研究生（在完成学习计划后6个月内），年龄限制为35岁。</p>
+      </div>
+     
     </div>
   </div>
 </template>
@@ -98,6 +102,7 @@ export default {
       title: "立即提交",
       title2: "摘要/全文提交指南",
       title3: "重要时间节点",
+      title4: "国际园艺学会青年科学家奖",
     };
   },
   components: {
@@ -113,6 +118,9 @@ export default {
 }
 .mb40 {
   margin-bottom: 40px;
+}
+.mb60 {
+  margin-bottom: 80px;
 }
 .bj {
   background: #fff;
@@ -143,7 +151,7 @@ table.jjrqTable {
   border: none;
   text-align: center;
   font-size: 18px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 table.jjrqTable tr td:first-child {
   font-weight: bold;

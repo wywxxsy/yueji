@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
       <Head :isNav="isNav"></Head>
       <Block1></Block1>
       <Block2></Block2>
@@ -11,7 +11,7 @@
       <Block8></Block8>
       <Block9></Block9>
       <Foot></Foot>
-
+      <SlideNav></SlideNav>
   </div>
 </template>
 
@@ -27,6 +27,7 @@ import Block7 from "@/components/Block7";
 import Block8 from "@/components/Block8";
 import Block9 from "@/components/Block9";
 import Foot from "@/components/Foot";
+import SlideNav from "@/components/SlideNav";
 export default {
   components: {
     Head,
@@ -39,15 +40,25 @@ export default {
     Block7,
     Block8,
     Block9,
-    Foot
+    Foot,
+    SlideNav
   },
   data() {
     return {
       isNav:0,
+     
     }
-  }
+  },
+ 
+ 
 };
 </script>
 
 <style>
+#navbar{width:1300px;margin: 0 auto;height:60px;line-height: 60px;position:fixed;top:0;left:0;z-index:999;background:#fff;border-bottom:1px solid #ccc;}
+#navbar ul{list-style: none;}
+#navbar li{float: left;margin-right: 20px;cursor: pointer;}
+#navbar li.active {
+  background:#f00;color:#fff;
+}
 </style>

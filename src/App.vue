@@ -16,9 +16,15 @@
 // }
 
 export default {
- components: {
- }
-
+    metaInfo: {
+    // 定义CSP规则
+    meta: [
+      {
+        'http-equiv': 'Content-Security-Policy',
+        content: "default-src 'self'; script-src 'self' http://192.168.8.64:8049; img-src 'self' http://192.168.8.64:8049;"
+      }
+    ]
+  }
 }
 </script>
 

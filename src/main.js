@@ -12,6 +12,15 @@ Vue.use(ElementUI);
 
 Vue.use(Vuelidate);
 
+
+Vue.prototype.$scrollToTop = function() {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+};
+
 new Vue({
   router,
   store,

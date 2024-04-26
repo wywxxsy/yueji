@@ -12,8 +12,8 @@ import Title from "@/components/Title.vue";
 export default {
   data() {
     return {
-      title: "赞助单位",
-      list:['北京市园林绿化局','顺义区政府']
+      title: "承办方",
+      list:['北京市园林绿化局','北京市门头沟区人民政府','中国花卉协会月季分会','中国农业大学园艺学院','北京花卉协会']
 
     };
   },

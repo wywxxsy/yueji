@@ -1,5 +1,5 @@
 <template>
-  <div class="bj">
+  <div class="bj" id="zbf">
     <Title :name="name"></Title>
     <div class="itemList">
       <div class="item" v-for="(item,index) in list" :key="index">
@@ -15,18 +15,14 @@ import Title from "@/components/Title.vue";
 export default {
   data() {
     return {
-      name: "主办方与承办方",
+      name: "主办方",
       list: [
         { url: require("../assets/image/f1.png"), nameF: "国际园艺学会" },
         { url:require( "../assets/image/f2.png"), nameF: "北京市人民政府" },
         { url: require("../assets/image/f3.png"), nameF: "中国园艺学会" },
         { url: require("../assets/image/f4.jpg"), nameF: "中国农业大学" },
         { url: require("../assets/image/f5.jpg"), nameF: "中国花卉协会" },
-        { url: require("../assets/image/f1.png"), nameF: "北京市园林绿化局" },
-        { url: require( "../assets/image/f2.png"), nameF: "北京市门头沟区人民政府" },
-        { url: require("../assets/image/f3.png"), nameF: "中国花卉协会月季分会" },
-        { url: require("../assets/image/f4.jpg"), nameF: "中国农业大学园艺学院" },
-        { url: require("../assets/image/f5.jpg"), nameF: "北京花卉协会" },
+
       ],
     };
   },

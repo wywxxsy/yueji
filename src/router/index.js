@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Index from '../views/Index.vue'
 import Login from '@/views/Login.vue'
 import Regist from '@/views/Regist.vue'
+import Show from '@/views/Show.vue'
 import Live from '@/views/Live.vue'
 import Live_player from '@/views/Live_player.vue'
 
@@ -34,6 +35,15 @@ const routes = [
     component: Regist,
     meta:{
       title:'参会注册_第九届国际月季大会'
+    }
+  },
+  {
+    path: '/Show',
+    name: 'show',
+    component: Show,
+    meta:{
+      title:'参观_第九届国际月季大会',
+      requireAuth:true
     }
   },
   {
