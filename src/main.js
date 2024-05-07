@@ -13,6 +13,8 @@ Vue.use(ElementUI);
 Vue.use(Vuelidate);
 
 
+Vue.prototype.$hostUrl = 'http://123.127.162.223:9997/Interface';
+
 Vue.prototype.$scrollToTop = function() {
   window.scrollTo({
     top: 0,

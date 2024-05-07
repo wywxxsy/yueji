@@ -92,8 +92,9 @@ export default {
         try {
           const newPsd =md5(this.Password);
           //  console.log(newPsd, "这是加密后的密码");
+          //console.log(this.$hostUrl);
           const response = await axios.post(
-            "http://192.168.8.64:8049/Interface/LoginSystem",
+            this.$hostUrl+'/LoginSystem',
             {
               UserName: this.UserName,
               Password: newPsd,// 加密密码

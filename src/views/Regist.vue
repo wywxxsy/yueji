@@ -322,7 +322,7 @@ export default {
     async submitForm(){
       // 发送POST请求
       try {
-            const response = await axios.post('http://192.168.8.64:8049/Interface/SubmitForm', this.subInfo);
+            const response = await axios.post(this.$hostUrl+'/SubmitForm', this.subInfo);
             // 处理响应数据
             if(response.data.Code == '1'){
               // this.dialogShow = false;
