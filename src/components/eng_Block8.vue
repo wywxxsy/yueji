@@ -1,5 +1,5 @@
 <template>
-  <div class="bj" id="jtzs">
+  <div class="bj" id="eng_jtzs">
     <Title :name="title"></Title>
     <div class="centerBox">
       <img src="../assets/image/use/testMap.png" class="Map" />
@@ -7,7 +7,7 @@
         <div class="wid50">
           <div class="blueTitle">
             <img src="../assets/image/icon1.png" />
-            <span>机场/公交</span>
+            <span>Transportation</span>
           </div>
           <div class="pd35">
             <div class="redTitle">机场：</div>
@@ -29,7 +29,7 @@
         <div class="wid50">
           <div class="blueTitle">
             <img src="../assets/image/icon2.png" />
-            <span>自驾/出租车</span>
+            <span>Transportation</span>
           </div>
           <div class="pd35">
             <div class="redTitle">机场：</div>
@@ -52,7 +52,7 @@
         <div class="wid50">
           <div class="blueTitle">
             <img src="../assets/image/icon3.png" />
-            <span>酒店住宿</span>
+            <span>Accommodation</span>
           </div>
           <div class="pd35">
             <div class="redTitle">机场：</div>
@@ -75,7 +75,7 @@
         <div class="wid50">
           <div class="blueTitle">
             <img src="../assets/image/icon4.png" />
-            <span>关于签证</span>
+            <span>Visa information</span>
           </div>
           <div class="pd35">
             <div class="redTitle">机场：</div>
@@ -105,7 +105,7 @@ import Title from "@/components/Title.vue";
 export default {
   data() {
     return {
-      title: "交通和住宿",
+      title: "Venue Travel",
     };
   },
   components: {

@@ -4,31 +4,32 @@
       <div class="centerBox">
         <ul class="flexBox" :class="isToggle?'toggleHeight':''">
           <li :class="isNav == 0 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#hyc">主页</router-link>
+            <router-link to="#eng_hyc">Home</router-link>
           </li>
           <li :class="isNav == 1 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#zjbg">征集报告</router-link>
+            <router-link to="#eng_zjbg">Symposium</router-link>
           </li>
           <li :class="isNav == 2 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#dhrc">大会日程</router-link>
+            <router-link to="#eng_dhrc">Schedule</router-link>
           </li>
           <li :class="isNav == 3 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#regist">注册</router-link>
+            <router-link to="#eng_regist">Registration</router-link>
           </li>
           <li :class="isNav == 4 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#zytj">摘要/全文提交</router-link>
+            <router-link to="#eng_zytj">Abstract/Full text</router-link>
           </li>
           <li :class="isNav == 5 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#jtzs">交通和住宿</router-link>
+            <router-link to="#eng_jtzs">Venue Travel</router-link>
+          </li>
+          
+          <li :class="isNav == 7 ? 'curNav' : ''" @click="changeNavToggle()">
+            <router-link to="#eng_wyh">Committees</router-link>
           </li>
           <li :class="isNav == 6 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#wyh">委员会</router-link>
-          </li>
-          <li :class="isNav == 7 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="Show">参观</router-link>
+            <router-link to="#eng_Show">Beijing</router-link>
           </li>
           <li :class="isNav == 8 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link  :to="'/Live'">会议LIVE</router-link>
+            <router-link  :to="'/Live'">LIVE</router-link>
           </li>
         </ul>
       </div>
@@ -36,14 +37,14 @@
       <div class="rightBar">
         <div @click="toLogin" v-show="logState==''" style="cursor:pointer">
           <img src="../assets/image/icon_user.png" />
-          <span>登录 </span>
+          <span>Login</span>
         </div>
         <div v-show="logState!==''">
           <img src="../assets/image/icon_user.png"  />
           <span>{{userName}}</span>
           <span @click="toLogout"> [退出]</span>
         </div>
-        <div class="ml20"  @click="to_engIndex">
+        <div class="ml20" @click="to_Index">
           <img src="../assets/image/icon_world.png"  />
           <span>中/英</span>
         </div>
@@ -99,8 +100,8 @@ export default {
     changeNavToggle() {
       this.isToggle = !this.isToggle
     },
-    to_engIndex(){
-      this.$router.push({ name: "eng_index" });
+    to_Index(){
+      this.$router.push({ name: "index" });
     }
   },
 };
@@ -156,7 +157,7 @@ export default {
   display: block;
   height: 100px;
   line-height: 100px;
-  padding: 0 26px;
+  padding: 0 12px;
 }
 .centerBox ul li:hover,
 .centerBox ul li.curNav {

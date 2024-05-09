@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Index from '../views/Index.vue'
+import eng_Index from '../views/eng_Index.vue'
 import Login from '@/views/Login.vue'
 import Regist from '@/views/Regist.vue'
 import Show from '@/views/Show.vue'
@@ -14,11 +15,19 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/index/',
     name: 'index',
     component: Index,
     meta:{
       title:'首页_第九届国际月季大会'
+    }
+  },
+  {
+    path: '/eng_index',
+    name: 'eng_index',
+    component: eng_Index,
+    meta:{
+      title:'The 9th International Rose Symposium'
     }
   },
   {
