@@ -45,7 +45,7 @@ export default {
       const navContents = document.querySelectorAll(
         `.content  ${this.contenterer2}`
       );
-      console.log(navContents);
+      // console.log(navContents);
       const offsetTopArr = [];
       navContents.forEach((item) => {
         offsetTopArr.push(item.offsetTop);

@@ -15,7 +15,15 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/index/',
+    path: '/',
+    name: 'eng_index',
+    component: eng_Index,
+    meta:{
+      title:'首页_第九届国际月季大会'
+    }
+  },
+  {
+    path: '/index',
     name: 'index',
     component: Index,
     meta:{
@@ -51,8 +59,7 @@ const routes = [
     name: 'show',
     component: Show,
     meta:{
-      title:'参观_第九届国际月季大会',
-      requireAuth:true
+      title:'参观_第九届国际月季大会'
     }
   },
   {

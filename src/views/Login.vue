@@ -92,7 +92,7 @@ export default {
         try {
           const newPsd =md5(this.Password);
           //  console.log(newPsd, "这是加密后的密码");
-          //console.log(this.$hostUrl);
+          console.log(this.$hostUrl+'/LoginSystem');
           const response = await axios.post(
             this.$hostUrl+'/LoginSystem',
             {
@@ -108,10 +108,11 @@ export default {
             localStorage.setItem("ID",userInfo.ID);
             localStorage.setItem("Payment",userInfo.Payment);
             localStorage.setItem("Name",userInfo.Name);
-            this.$router.push(this.$route.query.redirect || "/"); //跳转至首页
-          } else if (response.data.Code == "-1") {
+            this.$router.push(this.$route.query.redirect || "/Index"); //跳转至首页
+          } else {
             this.tipTxt = response.data.Message;
           }
+
         } catch (error) {
           console.error(error); // 处理错误情况
         }

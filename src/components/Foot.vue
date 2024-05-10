@@ -1,7 +1,8 @@
 <template>
   <div class="foot">
-    CopyRight © IX International Cherry Symposium 2021<br>
-京ICP备2020041861号 Email： cherries2021@126.com,9symposium@cherries.org.cn
+    <p> CopyRight © IX International Cherry Symposium 2021</p>
+   
+     <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#fff;">京ICP备09053977号-28</a> Email： cherries2021@126.com,9symposium@cherries.org.cn
   </div>
 </template>
 
@@ -12,5 +13,5 @@ export default {
 </script>
 
 <style scoped>
-.foot{width:100%;height:105px;text-align: center;display: flex;justify-content: center; align-items:center;background:#292828;font-size:16px;color:#fff;line-height:2em;}
+.foot{width:100%;height:105px;text-align: center;align-items:center;background:#292828;text-align: center;font-size:16px;color:#fff;line-height:2em;padding-top:30px;}
 </style>
