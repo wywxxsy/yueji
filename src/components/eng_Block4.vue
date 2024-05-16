@@ -3,83 +3,61 @@
     <Title :name="title"></Title>
     <div class="centerBox">
       <div class="mb20">
-        <div class="zhuanTi">专题1:世界产业、市场与经济</div>
+        <div class="zhuanTi">S1: Genetics and Genomics</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
   
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题2:育种、遗传学和基因组学</div>
+        <div class="zhuanTi">S2: Breeding, Social Sciences and Humanities</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题3：资源收集、利用及品种评价</div>
+        <div class="zhuanTi">S3: Physiology</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题4：生产系统及管理与技术</div>
+        <div class="zhuanTi">S4: Secondary Metabolites</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题5：土肥水研究及管理与技术</div>
+        <div class="zhuanTi">S5: Biotic and Abiotic stress</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题6：生理与生物技术</div>
+        <div class="zhuanTi">S6: Postharvest Technologies and Processing</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
-        </div>
-        
-      </div>
-      <div class="mb20">
-        <div class="zhuanTi">专题7：病虫害防治</div>
-        <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
-        </div>
-        
-      </div>
-      <div class="mb20">
-        <div class="zhuanTi">专题8:采后技术与加工</div>
-        <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
 
       <RedTitle :titleCont="redTitle"></RedTitle>
       <div class="ztList">
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
+          <!-- <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div> -->
          
         </div>
     </div>
@@ -92,8 +70,9 @@ import RedTitle from "@/components/RedTitle.vue";
 export default {
   data() {
     return {
-      title: "主要征集报告名单(部分)",
-      redTitle: "特邀报告人",
+      //title: "Symposium",
+      title: "The main topics",
+      redTitle: "Invited Speakers",
     };
   },
   components: { Title, RedTitle },

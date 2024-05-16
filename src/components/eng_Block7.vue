@@ -3,18 +3,18 @@
     <Title :name="title"></Title>
     <div class="contentCenter">
       <div class="pinkBj">
-        <div>所有摘要和全文必须通过以下链接提交</div>
-        <div><a href="https://www.actahort.org/members/symposiar?nr=744" target="_blank" class="redBtn">摘要提交</a></div>
+        <div>Submit through the following link</div>
+        <div><a href="https://www.actahort.org/members/symposiar?nr=744" target="_blank" class="redBtn">submit</a></div>
       </div>
       <div class="mb40">
         <a
           href="https://www.ishs.org/sites/default/files/page-documents/onlinesubmissionauthorsguide.pdf"
           target="_blank"
           class="redBtn"
-          >国际园艺学会在线提交程序</a
+          >Submission procedure</a
         >
         <a href="https://www.ishs.org/authors" target="_blank" class="redBtn"
-          >Acta Horticulturae指南</a
+          >Acta Horticulturae Guide</a
         >
       </div>
       <RedTitle :titleCont="title3"></RedTitle>
@@ -22,7 +22,7 @@
         <div class="wid30">
           <div class="descBox">
             <p class="mb20">
-              提交报告的作者需首先注册，并完成缴费。我们仅接受完成注册并缴费的作者，已完成注册但不打算作报告的人员，也需要尽快完成支付。
+              The author submitting the report must first register and complete the payment. We only accept authors who have completed registration and paid fees, and individuals who have completed registration but do not intend to make reports need to complete payment as soon as possible.
             </p>
           </div>
         </div>

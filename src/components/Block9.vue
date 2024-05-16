@@ -9,33 +9,39 @@
         </p>
         <div class="blackTitle">召集人/大会主席</div>
         <div class="ztList">
-          <div class="greyTxt">高俊平（中国农业大学教授）</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
+          <div class="greyTxt">高俊平（中国农业大学）</div>
+          <div class="greyTxt">马男（中国农业大学）</div>
         </div>
         <div class="blackTitle">科学委员会</div>
         <div class="ztList">
-          <div class="greyTxt">高俊平（中国农业大学教授）</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
+          <div class="greyTxt">Brent Pemberton（美国得克萨斯农工大学）</div>
+          <div class="greyTxt">Cai-Zhong Jiang（美国加利福尼亚大学戴维斯分校）</div>
+          <div class="greyTxt">David Byrne（美国得克萨斯农工大学）</div>
+          <div class="greyTxt">Fabrice Foucher（法国农业科学研究院）</div>
+          <div class="greyTxt">Fisun Çelikel（土耳其昂多库兹梅伊斯大学）</div>
+          <div class="greyTxt">Johan van Huylenbroeck（比利时ILVO研究所）</div>
+          <div class="greyTxt">José Antonio Saraiva Grossi（巴西维索萨联邦大学）</div>
+          <div class="greyTxt">张颢（云南省农业科学院）</div>
+          <div class="greyTxt">包满珠（华中农业大学）</div>
+          <div class="greyTxt">Margherita Beruto（国际园艺学会观赏植物分会主席）</div>
+          <div class="greyTxt">Mohammed Bendahmane（法国农业科学研究院）</div>
+          <div class="greyTxt">Peter Batt（澳大利亚）</div>
+          <div class="greyTxt">Sylvie Baudino（法国里昂大学）</div>
+          
         </div>
         <div class="blackTitle">组织委员会</div>
         <div class="ztList">
-          <div class="greyTxt">高俊平（中国农业大学教授）</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
+          <div class="greyTxt">李天红（中国农业大学）</div>
+          <div class="greyTxt">北京市园林绿化局</div>
+          <div class="greyTxt">门头沟园林绿化局</div>
+          <div class="greyTxt">高俊平（中国农业大学）</div>
+          <div class="greyTxt">马男（中国农业大学）</div>
+          <div class="greyTxt">张佐双（中国花卉协会月季分会）</div>
+          <div class="greyTxt">赵世伟（中国花卉协会月季分会）</div>
+          <div class="greyTxt">杨树华（中国科学院蔬菜花卉研究所）</div>
+          <div class="greyTxt">罗乐（北京林业大学）</div>
+          <div class="greyTxt">江云鹤（中国农业大学）</div>
+          <div class="greyTxt">陈昶曦（中国农业大学）</div>
         </div>
       </div>
     </div>

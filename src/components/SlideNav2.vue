@@ -43,9 +43,10 @@ export default {
   margin-top: 10px;
 }
 .sidebar-nav {
+  z-index: 100;
   position: fixed;
   right: 0;
-  top: 40%;
+  bottom: 300px;
   background: rgb(248, 216, 222, 0.5);
   padding: 25px 25px;
   font-size: 18px;

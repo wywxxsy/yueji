@@ -3,6 +3,10 @@
     <Title :name="title"></Title>
     <div class="contentCenter">
       <div class="redTxt">
+        Click the button to register
+        <span class="redBtn" @click="toRegist">register</span>
+      </div>
+      <div class="redTxt">
         <!-- 国内参会人员请点击此处进行注册
         <span class="redBtn" @click="toRegist">立即注册</span> -->
         <p>Registration will be opened from May 1st, 2024</p>

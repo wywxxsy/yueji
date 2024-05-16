@@ -1,6 +1,11 @@
 <template>
   <div class="bigBj" id="eng_hyc">
-    <img src="../assets/image/2025.png" class="centerImg" />
+    <!-- <img src="../assets/image/2025.png" class="centerImg" /> -->
+    <el-carousel indicator-position="outside">
+        <el-carousel-item v-for="item in imgList" :key="item.id">
+          <img :src="item.imgUrl" alt="">
+        </el-carousel-item>
+      </el-carousel>
     <div class="contentBox">
       <div class="title" style="padding: 50px 0 0">
         <!-- <h2>欢迎词</h2> -->
@@ -35,7 +40,27 @@ This momentous event aims to highlight the remarkable progress of China's rose i
 </template>
 
 <script>
-export default {};
+export default {
+
+  data(){
+    return{
+      imgList:[
+        {
+          id: 'banner1',
+          imgUrl: require("@/assets/image/banner1.jpg")
+        },
+        {
+          id: 'banner2',
+          imgUrl: require("@/assets/image/banner2.jpg")
+        },
+        {
+          id: 'banner3',
+          imgUrl: require("@/assets/image/banner3.jpg")
+        },
+      ]
+    }
+  }
+};
 </script>
 
 <style  scoped>

@@ -20,7 +20,7 @@ export default {
       contenterer2: ['#eng_hyc','#eng_zbf',"#eng_zjbg", "#eng_dhrc", "#eng_regist",'#eng_zytj','#eng_jtzs','#eng_wyh'],
       contenterer: [
       {title:'Home',route:'eng_hyc'},
-      {title:'主办方与承办方',route:'eng_zbf'},
+      {title:'Organizers',route:'eng_zbf'},
       {title:'Symposium',route:'eng_zjbg'},
       {title:'Schedule',route:'eng_dhrc'},
       {title:'Registration',route:'eng_regist'},
@@ -107,7 +107,7 @@ export default {
 .sidebar-nav {
   position: fixed;
   right: 0;
-  top: 40%;
+  bottom: 100px;
   background: rgb(248, 216, 222, 0.5);
   padding: 25px 25px;
   font-size: 18px;

@@ -74,6 +74,12 @@ table {
 }
 a{text-decoration: none;}
 
+.el-carousel__container{height: 460px !important;z-index: 100;}
+.el-carousel__item {width: 100% !important;height: 460px !important;}
+.el-carousel__item img{width:100% !important;height:100% !important;display:block !important;margin:0 auto !important;object-fit: cover !important;}
+.el-carousel__arrow {background: rgba(203, 90, 99, 0.66);}
+.el-carousel__indicators--outside button{background: red;opacity: 0.4;height: 3px;}
+
 /* 移动端适配 */
 @media (max-width: 768px) {
     *{box-sizing: border-box;}
@@ -129,5 +135,7 @@ a{text-decoration: none;}
     .ml20{margin-left: 15px !important;}
     .rightBar{justify-content:start !important;right: 0 !important; left: 80px !important;}
 }
+
+
 
 </style>

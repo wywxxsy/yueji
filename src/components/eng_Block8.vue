@@ -10,41 +10,25 @@
             <span>Transportation</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">机场：</div>
+            <div class="redTitle">airport：</div>
             <div class="greyContent">
-              <p>北京首都机场（距离会展102公里）</p>
-              <span
-                >地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span
-              >
+              <p>beijing capital international airport</p>
+              <!-- <span>地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span> -->
             </div>
-            <div class="redTitle">公交：</div>
             <div class="greyContent">
-              <p>北京首都机场（距离会展102公里）</p>
-              <span
-                >地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span
-              >
+              <p>Beijing Daxing International Airport</p>
             </div>
           </div>
         </div>
         <div class="wid50">
           <div class="blueTitle">
             <img src="../assets/image/icon2.png" />
-            <span>Transportation</span>
+            <span>Drive</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">机场：</div>
+            <div class="redTitle"></div>
             <div class="greyContent">
-              <p>北京首都机场（距离会展102公里）</p>
-              <span
-                >地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span
-              >
-            </div>
-            <div class="redTitle">公交：</div>
-            <div class="greyContent">
-              <p>北京首都机场（距离会展102公里）</p>
-              <span
-                >地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span
-              >
+              <span>Metro Line 10 Chedaogou Station exit D, turn left, enter Zizhuyuan Road 200 meters, then turn left into Shuguang Garden Road</span>
             </div>
           </div>
         </div>
@@ -55,20 +39,11 @@
             <span>Accommodation</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">机场：</div>
-            <div class="greyContent">
+            <div class="redTitle">Accommodation</div>
+            <!-- <div class="greyContent">
               <p>北京首都机场（距离会展102公里）</p>
-              <span
-                >地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span
-              >
-            </div>
-            <div class="redTitle">公交：</div>
-            <div class="greyContent">
-              <p>北京首都机场（距离会展102公里）</p>
-              <span
-                >地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span
-              >
-            </div>
+              <span>地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span>
+            </div> -->
           </div>
         </div>
 
@@ -78,20 +53,14 @@
             <span>Visa information</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">机场：</div>
-            <div class="greyContent">
+            <div class="redTitle">Visa information</div>
+            <!-- <div class="greyContent">
               <p>北京首都机场（距离会展102公里）</p>
               <span
                 >地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span
               >
-            </div>
-            <div class="redTitle">公交：</div>
-            <div class="greyContent">
-              <p>北京首都机场（距离会展102公里）</p>
-              <span
-                >地铁十号线车道沟站D口出像左转然后进入紫竹院路200米再左转进入曙光花园中路。</span
-              >
-            </div>
+            </div> -->
+            
           </div>
         </div>
       </div>

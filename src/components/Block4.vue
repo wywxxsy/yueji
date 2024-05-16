@@ -3,83 +3,68 @@
     <Title :name="title"></Title>
     <div class="centerBox">
       <div class="mb20">
-        <div class="zhuanTi">专题1:世界产业、市场与经济</div>
+        <div class="zhuanTi">专题1：遗传学和基因组学</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
   
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题2:育种、遗传学和基因组学</div>
+        <div class="zhuanTi">专题2：育种、社会科学和人类学</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题3：资源收集、利用及品种评价</div>
+        <div class="zhuanTi">专题3：生理学</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题4：生产系统及管理与技术</div>
+        <div class="zhuanTi">专题4：次级代谢</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题5：土肥水研究及管理与技术</div>
+        <div class="zhuanTi">专题5：生物与非生物胁迫</div>
         <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
         </div>
         
       </div>
       <div class="mb20">
-        <div class="zhuanTi">专题6：生理与生物技术</div>
+        <div class="zhuanTi">专题6：采后技术与加工</div>
+        <div class="ztList">
+          <span class="blackTxt"></span>
+          <span class="greyTxt"></span>
+        </div>
+      </div>
+      <!-- <div class="mb20">
+        <div class="zhuanTi">专题6：采后技术与加工</div>
         <div class="ztList">
           <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
           <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
         </div>
-        
-      </div>
-      <div class="mb20">
-        <div class="zhuanTi">专题7：病虫害防治</div>
-        <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
-        </div>
-        
-      </div>
-      <div class="mb20">
-        <div class="zhuanTi">专题8:采后技术与加工</div>
-        <div class="ztList">
-          <span class="blackTxt">> 甜樱桃科学研究与生产技术的未来展望：</span>
-          <span class="greyTxt">Gregory A.Lang教授，美国密西根州立大学</span>
-        </div>
-        
-      </div>
+      </div> -->
 
       <RedTitle :titleCont="redTitle"></RedTitle>
       <div class="ztList">
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
-          <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div>
+          <div class="greyTxt"></div>
+          <!-- <div class="greyTxt">Amylezzoni教授，美国密西根州立大学</div> -->
          
         </div>
     </div>

@@ -4,33 +4,33 @@
       <div class="centerBox">
         <ul class="flexBox" :class="isToggle?'toggleHeight':''">
           <li :class="isNav == 0 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#eng_hyc">Home</router-link>
+            <router-link to="/">Home</router-link>
           </li>
           <li :class="isNav == 1 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#eng_zjbg">Symposium</router-link>
+            <router-link to="/#eng_zjbg">Symposium</router-link>
           </li>
           <li :class="isNav == 2 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#eng_dhrc">Schedule</router-link>
+            <router-link to="/#eng_dhrc">Schedule</router-link>
           </li>
           <li :class="isNav == 3 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#eng_regist">Registration</router-link>
+            <router-link to="/#eng_regist">Registration</router-link>
           </li>
           <li :class="isNav == 4 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#eng_zytj">Abstract/Full text</router-link>
+            <router-link to="/#eng_zytj">Abstract/Full text</router-link>
           </li>
           <li :class="isNav == 5 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#eng_jtzs">Venue Travel</router-link>
+            <router-link to="/#eng_jtzs">Venue Travel</router-link>
           </li>
           
           <li :class="isNav == 7 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#eng_wyh">Committees</router-link>
+            <router-link to="/#eng_wyh">Committees</router-link>
           </li>
           <li :class="isNav == 6 ? 'curNav' : ''" @click="changeNavToggle()">
-            <router-link to="#eng_Show">Beijing</router-link>
+            <router-link to="/#eng_Show">Beijing</router-link>
           </li>
-          <li :class="isNav == 8 ? 'curNav' : ''" @click="changeNavToggle()">
+          <!-- <li :class="isNav == 8 ? 'curNav' : ''" @click="changeNavToggle()">
             <router-link  :to="'/Live'">LIVE</router-link>
-          </li>
+          </li> -->
         </ul>
       </div>
 

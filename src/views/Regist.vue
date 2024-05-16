@@ -2,7 +2,12 @@
   <div class="bigBj">
     <Head :isNav="isNav"></Head>
    <div class="banner">
-    <img src="../assets/image/2025.png" >
+    <!-- <img src="../assets/image/2025.png" > -->
+    <el-carousel indicator-position="outside">
+        <el-carousel-item v-for="item in imgList" :key="item.id">
+          <img :src="item.imgUrl" alt="">
+        </el-carousel-item>
+      </el-carousel>
    </div>
    
   <div class="submit_container" >
@@ -10,46 +15,38 @@
       <h2 class="title">Registration(参会提交)</h2>
       <div class="form_box" style="padding: 15px">
         <div class="item">
-          <p><i>*</i>1. Name(姓名)</p>
-          <input class="textarea" placeholder="请输入姓名" v-model.trim="subInfo.name"/>
-          <p class="redTxt" v-if="!$v.subInfo.name.required">Name is required.</p>
+          <p><i>*</i>1. First Name</p>
+          <input class="textarea" placeholder="请输入名字" v-model.trim="subInfo.First_name"/>
+          <p class="redTxt" v-if="!$v.subInfo.First_name.required">First_name is required.</p>
         </div>
         <div class="item">
-          <p><i>*</i>2. Is there an entourage?(是否有随行人员?)</p>
+          <p><i>*</i>2. Last Name</p>
+          <input class="textarea" placeholder="请输入姓氏" v-model.trim="subInfo.Last_name"/>
+          <p class="redTxt" v-if="!$v.subInfo.Last_name.required">Last_name is required.</p>
+        </div>
+        <div class="item">
+          <p><i>*</i>3. Is there an accompanying person?(是否有随行人员?)</p>
           <div class="radio_group">
             <span><input type="radio" name="r12"  v-model="subInfo.IsEntourage" value="是"/><label for="r3">是(最多一个)</label></span>
             <span><input type="radio" name="r12"  v-model="subInfo.IsEntourage" value="否" checked/><label for="r4">否</label></span>
           </div>
-          <p class="redTxt" v-if="!$v.subInfo.IsEntourage.required">IsEntourage is required.</p>
-        </div>
-
-        <div class="item">
-          <p><i>*</i>3. Field(选择分会场)</p>
-          <div class="radio_group">
-            <span><input type="radio" name="r11"  v-model="subInfo.SubMeetingRoom" value="北京" checked/><label for="r1">北京</label></span>
-            <span><input type="radio" name="r11"  v-model="subInfo.SubMeetingRoom" value="南京"/><label for="r2">南京</label></span>
-          </div>
-          <p class="redTxt" v-if="!$v.subInfo.SubMeetingRoom.required">SubMeetingRoom is required.</p>
+          <p class="redTxt" v-if="!$v.subInfo.IsEntourage.required">accompanying person is required.</p>
         </div>
         <div class="item">
-          <p>4. Entourage Name(随行人员姓名)</p>
+          <p>4. accompanying person Name(随行人员姓名)</p>
           <input class="textarea" placeholder="请输入随行人员姓名" v-model="subInfo.EntourageName"/>
         </div>
 
         <div class="item">
           <p>5. Gender(随行人员性别)</p>
           <div class="radio_group">
-            <span><input type="radio" name="r13"  v-model="subInfo.EntourageSex" value="男"/><label for="r5">男</label></span>
+            <span><input type="radio" name="r13"  v-model="subInfo.EntourageSex" value="男"/><label for="qz1">男</label></span>
             <span><input type="radio" name="r13"  v-model="subInfo.EntourageSex" value="女"/><label for="r6">女</label></span>
           </div>
         </div>
+        
         <div class="item">
-          <p>6. Relationship(随行人员与本人关系)</p>
-          <input class="textarea" placeholder="请输入随行人员与本人关系" v-model="subInfo.Relationship"/>
-         
-        </div>
-        <div class="item">
-          <p><i>*</i>7. Registration Type(注册类型)</p>
+          <p><i>*</i>6. Registration Type(注册类型)</p>
           <select  v-model="subInfo.RegistrationType">
             <option value="">Please choose</option>
             <option value="ISHS会员">ISHS会员</option>
@@ -60,12 +57,13 @@
           <p class="redTxt" v-if="!$v.subInfo.RegistrationType.required">RegistrationType is required.</p>
         </div>
         <div class="item">
-          <p>8. ISHS membership number(ISHS会员编号)</p>
+          <p>7. ISHS membership number(ISHS会员编号)</p>
           <input class="textarea" placeholder="请输入ISHS会员编号" v-model="subInfo.ISHSNumber"/>
         </div>
         <div class="item">
-          <p><i>*</i>9. Title(称呼)</p>
+          <p><i>*</i>8. Title(称呼)</p>
           <select v-model="subInfo.Title">
+            <option value="">Please choose</option>
             <option value="Dr.">Dr.</option>
             <option value="Prof.">Prof.</option>
             <option value="Mr.">Mr.</option>
@@ -74,56 +72,48 @@
           <p class="redTxt" v-if="!$v.subInfo.Title.required">Title is required.</p>
         </div>
         <div class="item">
-          <p><i>*</i>10. Position(职位)</p>
+          <p><i>*</i>9. Position(职位)</p>
           <input class="textarea" placeholder="请输入职位" v-model="subInfo.Position"/>
           <p class="redTxt" v-if="!$v.subInfo.Position.required">Position is required.</p>
         </div>
         <div class="item">
-          <p><i>*</i>11. Organization / Institution(组织/机构)</p>
+          <p><i>*</i>10. Organization / Institution(组织/机构)</p>
           <input class="textarea" placeholder="请输入组织/机构" v-model="subInfo.Organization"/>
           <p class="redTxt" v-if="!$v.subInfo.Organization.required">Organization is required.</p>
         </div>
         <div class="item">
-          <p><i>*</i>12. Address(地址)</p>
-          <input class="textarea" placeholder="请输入地址" v-model="subInfo.Addres"/>
-          <p class="redTxt" v-if="!$v.subInfo.Addres.required">Addres is required.</p>
+          <p><i>*</i>11. Country/Region(国家)</p>
+          <input class="textarea" placeholder="请输入国家名称" v-model="subInfo.Country"/>
+          <p class="redTxt" v-if="!$v.subInfo.Country.required">Country/Region is required.</p>
         </div>
         <div class="item">
-          <p><i>*</i>13. City(城市)</p>
+          <p><i>*</i>12. City(城市)</p>
           <input class="textarea" placeholder="请输入城市名称" v-model="subInfo.City"/>
           <p class="redTxt" v-if="!$v.subInfo.City.required">City is required.</p>
         </div>
         <div class="item">
-          <p>14. State (province or region)州（省或地区）</p>
-          <input class="textarea" placeholder="请输入地区名称" v-model="subInfo.States"/>
+          <p><i>*</i>13. Address(地址)</p>
+          <input class="textarea" placeholder="请输入地址" v-model="subInfo.Addres"/>
+          <p class="redTxt" v-if="!$v.subInfo.Addres.required">Addres is required.</p>
         </div>
+
         <div class="item">
-          <p>15. Postal / Zip code(邮政编码)</p>
+          <p>14. Postal / Zip code(邮政编码)</p>
           <input class="textarea" placeholder="请输入邮政编码" v-model="subInfo.ZipCode"/>
         </div>
+        
         <div class="item">
-          <p><i>*</i>16. Country(国家)</p>
-          <input class="textarea" placeholder="请输入国家名称" v-model="subInfo.Country"/>
-          <p class="redTxt" v-if="!$v.subInfo.Country.required">Country is required.</p>
-        </div>
-        <div class="item">
-          <p>17. Telephone(电话)</p>
+          <p><i>*</i>15. Mobile phone(手机)</p>
           <div class="boxInp">
             <img src="../assets/image/tel.png" />
-            <input class="textarea pl30" placeholder="请输入电话" v-model="subInfo.Tel" />
-          </div>
-        </div>
-        <div class="item">
-          <p><i>*</i>18. Mobile phone(手机)</p>
-          <div class="boxInp">
-            <img src="../assets/image/tel.png" />
-            <input class="textarea pl30" placeholder="请输入手机号码" v-model="subInfo.Mobile"/>
+            <span style="position: absolute;left:30px;top:10px;color:#333">+86</span>
+            <input class="textarea pl30" placeholder="请输入手机号码" v-model="subInfo.Mobile" style="padding-left:64px"/>
             <p class="redTxt" v-if="!$v.subInfo.Mobile.required">Mobile is required.</p>
             <p class="redTxt" v-if="!$v.subInfo.Mobile.numeric">Mobile is a number.</p>
           </div>
         </div>
         <div class="item">
-          <p><i>*</i>19. Email address(邮箱地址)</p>
+          <p><i>*</i>16. Email address(邮箱地址)</p>
           <div class="boxInp">
             <img src="../assets/image/email.png" />
             <input class="textarea pl30" placeholder="请输入邮箱地址" v-model="subInfo.Email"/>
@@ -131,30 +121,9 @@
             <p class="redTxt" v-if="!$v.subInfo.Email.email">Must be a valid email address</p>
           </div>
         </div>
+
         <div class="item">
-          <p><i>*</i>20. Confirm Email(确认电子邮件)</p>
-          <div class="boxInp">
-            <input class="textarea" placeholder="请确认电子邮件" v-model="subInfo.ConfirmEmail"/>
-            <p class="redTxt" v-if="!$v.subInfo.ConfirmEmail.required">Email is required.</p>
-            <p class="redTxt" v-if="!$v.subInfo.ConfirmEmail.email">Must be a valid email address</p>
-            <div v-if="subInfo.ConfirmEmail!==''">
-              <p class="greenTxt" v-if="isValidEmail">校验通过</p>
-              <p class="redTxt" v-else>请输入与一致的电子邮件地址</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <p><i>*</i>21. 登录账号</p>
-          <div class="boxInp">
-            <input class="textarea" placeholder="请输入登录账号" v-model="subInfo.UserName" />
-            <p class="redTxt" v-if="!$v.subInfo.UserName.required">UserName is required.</p>
-            <div v-if="subInfo.UserName!==''">
-              <p class="redTxt" v-if="!isValid1">输入不合法！只能输入数字、字母和下划线。</p></div>
-           
-          </div>
-        </div>
-        <div class="item">
-          <p><i>*</i>22. Password(密码)</p>
+          <p><i>*</i>17. Password(密码)</p>
           <div class="boxInp">
             <input type="password"  placeholder="请输入密码" v-model="subInfo.Password" />
             <p class="redTxt" v-if="!$v.subInfo.Password.required">Password is required.</p>
@@ -164,7 +133,7 @@
           </div>
         </div>
         <div class="item">
-          <p><i>*</i>23. Confirm Password(确认密码)</p>
+          <p><i>*</i>18. Confirm Password(确认密码)</p>
           <div class="boxInp">
             <input type="password"  placeholder="请确认密码"  v-model="subInfo.confirmPassword" />
             <p class="redTxt" v-if="!$v.subInfo.confirmPassword.required">confirmPassword is required.</p>
@@ -175,33 +144,24 @@
           </div>
         </div>
         <div class="item">
-          <p>24. VAT number (单位税号)</p>
-          <input class="textarea" placeholder="请输入单位税号" v-model="subInfo.VATNumber"/>
+          <p>19. Halal foods?(是否需要清真食品)</p>
+          <div class="radio_group">
+            <span><input type="radio" name="qz1"  v-model="subInfo.Halal" value="是"/><label for="qz1">是</label></span>
+            <span><input type="radio" name="qz1"  v-model="subInfo.Halal" value="否"/><label for="qz2">否</label></span>
+          </div>
         </div>
         <div class="item">
-          <p>25. Billing Address(发票抬头)</p>
-          <input class="textarea" placeholder="请输入发票抬头" v-model="subInfo.BillingAddress"/>
-        </div>
-        <div class="item item10">
-          <p>
-            26. Do you wish to say something about symposium
-            ?(你想谈谈研讨会吗？)
-          </p>
-          <textarea
-            class="wid100 "
-            placeholder="请谈谈您的感受或建议"
-            v-model="subInfo.Propose"
-          ></textarea>
+          <p>20. Vegetarian foods?(是否需要素食)</p>
+          <div class="radio_group">
+            <span><input type="radio" name="ss1"  v-model="subInfo.SuShi" value="是"/><label for="ss1">是</label></span>
+            <span><input type="radio" name="ss1"  v-model="subInfo.SuShi" value="否"/><label for="ss2">否</label></span>
+          </div>
         </div>
         <div class="submitBtn_box">
           <span class="submit_btn"  @click="checkFrom" >Submit</span>
           <span class="redTxt">{{errorMessage}}</span>
         </div>
-        <!-- <div class="dialog" v-show="dialogShow">
-          <div class="dialogInfo">
-            <p>{{textTip}}</p>
-          </div>
-        </div> -->
+
       </div>
     </div>
   </div>
@@ -212,7 +172,7 @@
 <script>
 import axios from 'axios';
 import Foot from "@/components/Foot";
-import Head from "@/components/Head";
+import Head from "@/components/eng_Head";
 import CryptoJS from 'crypto-js';
 import { required,email,minLength,numeric } from 'vuelidate/lib/validators'
 
@@ -224,15 +184,29 @@ export default {
   },
   data(){
         return{
+          imgList:[
+            {
+              id: 'banner1',
+              imgUrl: require("@/assets/image/banner1.jpg")
+            },
+            {
+              id: 'banner2',
+              imgUrl: require("@/assets/image/banner2.jpg")
+            },
+            {
+              id: 'banner3',
+              imgUrl: require("@/assets/image/banner3.jpg")
+            },
+          ],
             isNav:3,
             // dialogShow:false,
             textTip:'正在提交',
             errorMessage:'',
             subInfo:{
               id:'',
-              name:'',
+              First_name:'',
+              Last_name:'',
               IsEntourage:'否',
-              SubMeetingRoom:'北京',
               EntourageName:'',
               EntourageSex:'',
               RegistrationType:'',
@@ -242,28 +216,24 @@ export default {
               Organization:'',
               Addres:'',
               City:'',
-              States:'',
               ZipCode:'',
               Country:'',
-              Tel:'',
               Mobile:'',
               Email:'',
-              ConfirmEmail:'',
-              UserName:'',
+              //UserName:'',
               Password:'',
               confirmPassword: '',
-              VATNumber:'',
-              BillingAddress:'',
-              Propose:'',  
+              Halal:'',
+              SuShi:'',
             } 
         }
     },
   computed: {
     //验证用户名  是否为数字+字母+下划线
-    isValid1(){
-      const regex = /^[0-9a-zA-Z_]+$/;
-      return regex.test(this.subInfo.UserName);
-    },
+    // isValid1(){
+    //   const regex = /^[0-9a-zA-Z_]+$/;
+    //   return regex.test(this.subInfo.UserName);
+    // },
     //验证密码  是否为数字和字母且大于8位的组合
     isValidPsd2() {
       // 正则表达式：数字和字母的组合
@@ -275,17 +245,14 @@ export default {
     isValidPsd3() {
       return this.subInfo.Password === this.subInfo.confirmPassword;
     },
-    //验证确认电子邮件  是否与电子邮件一致
-    isValidEmail() {
-      return this.subInfo.Email === this.subInfo.ConfirmEmail;
-    },
+
     
   },
   validations: {
       subInfo: {
-        name: {required},
+        First_name: {required},
+        Last_name: {required},
         IsEntourage:{required},
-        SubMeetingRoom:{required},
         RegistrationType:{required},
         Title:{required},
         Position:{required},
@@ -295,8 +262,7 @@ export default {
         Country:{required},
         Mobile:{required,numeric},
         Email:{required,email},
-        ConfirmEmail:{required,email},
-        UserName:{required},
+        //UserName:{required},
         Password:{required,minLength:minLength(8)},
         confirmPassword: {required},
       }
@@ -330,9 +296,9 @@ export default {
               //重置数据
               this.subInfo = {
               id:'',
-              name:'',
+              First_name:'',
+              Last_name:'',
               IsEntourage:'否',
-              SubMeetingRoom:'北京',
               EntourageName:'',
               EntourageSex:'',
               RegistrationType:'',
@@ -342,19 +308,16 @@ export default {
               Organization:'',
               Addres:'',
               City:'',
-              States:'',
               ZipCode:'',
               Country:'',
-              Tel:'',
               Mobile:'',
               Email:'',
               ConfirmEmail:'',
-              UserName:'',
+              //UserName:'',
               Password:'',
               confirmPassword: '',
-              VATNumber:'',
-              BillingAddress:'',
-              Propose:'',  
+              Halal:'',
+              SuShi:''
             } 
             
               this.$router.push('/');//跳转至首页
@@ -375,8 +338,8 @@ export default {
 
 <style scoped>
 input,select{outline: none;}
-.banner{width:100%;height:652px;background:url(../assets/image/bj2.png) no-repeat;background-size:cover;box-sizing: border-box;padding-top:67.5px;}
-.banner img{display:block;margin:0 auto;}
+.banner{width:100%;background:url(../assets/image/bj2.png) no-repeat;background-size:cover;box-sizing: border-box;}
+.banner img{width:100%;height:100%;display:block;margin:0 auto;object-fit: cover;}
 .container{position: relative;background: url(../assets/image/bg.jpg) no-repeat;background-size: cover;}
 .submit_container{background: url(../assets/image/submit_bj.png) repeat-y;overflow: auto;background-size:100% 100%;}
 input{background-color: transparent;}

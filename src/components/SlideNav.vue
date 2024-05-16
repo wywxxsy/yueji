@@ -45,7 +45,7 @@ export default {
       const navContents = document.querySelectorAll(
         `.content  ${this.contenterer2}`
       );
-      console.log(navContents);
+      // console.log(navContents);
       const offsetTopArr = [];
       navContents.forEach((item) => {
         offsetTopArr.push(item.offsetTop);
@@ -105,11 +105,12 @@ export default {
   margin-top: 10px;
 }
 .sidebar-nav {
+  z-index:10;
   position: fixed;
   right: 0;
-  top: 40%;
+  bottom: 100px;
   background: rgb(248, 216, 222, 0.5);
-  padding: 25px 25px;
+  padding: 20px;
   font-size: 18px;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;

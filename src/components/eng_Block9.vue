@@ -2,22 +2,47 @@
   <div class="bj" id="eng_wyh">
     <Title :name="title"></Title>
     <div class="centerBox">
-      <RedTitle :titleCont="redTitle"></RedTitle>
+      <!-- <RedTitle :titleCont="redTitle"></RedTitle> -->
       <div class="weiYuanHui">
         <p class="descTxt">
-          本次大会由国际园艺学会、中国园艺学会、北京市人民政府、中国农业大学、中国花卉协会主办，北京市园林绿化局、北京市门头沟区人民政府、中国花卉协会月季分会、中国农业大学园艺学院、北京花卉协会承办。
+          The symposium will be organized by International Society for Horticultural Science (ISHS), Chinese Society for Horticultural Science (CSHS), China Agricultural University (CAU) and Beijing Municipal People's Government, China Flower Association.
         </p>
         <div class="blackTitle">Conveners：</div>
         <div class="ztList">
-          <div class="greyTxt">Junping Gao (China Agricultural University)</div>
+          <div class="greyTxt">Junping Gao (China Agricultural University, China)</div>
+          <div class="greyTxt">Nan Ma (China Agricultural University, China)</div>
         </div>
         <div class="blackTitle">Scientific committee:</div>
         <div class="ztList">
-          <div class="greyTxt"></div>
+          <div class="greyTxt">Brent Pemberton (Texas & AM, TX, USA)</div>
+          <div class="greyTxt">Cai-Zhong Jiang (UC-Davis/USDA, USA)</div>
+          <div class="greyTxt">David Byrne (Texas & AM, TX, USA)</div>
+          <div class="greyTxt">Fabrice Foucher (INRA, France)</div>
+          <div class="greyTxt">Fisun Çelikel (Turkey Ondokuz Mayis, Turkey)</div>
+          <div class="greyTxt">Johan van Huylenbroeck (ILVO, Belgium)</div>
+          <div class="greyTxt">José Antonio Saraiva Grossi (Universidade Federal de Viçosa, Brazil)</div>
+          <div class="greyTxt">Hao Zhang (Yunnan Province Academy of Agricultural Sciences, China)</div>
+          <div class="greyTxt">Manzhu Bao (Huazhong Agricultural University, China)</div>
+          <div class="greyTxt">Margherita Beruto (Italy)</div>
+          <div class="greyTxt">Mohammed Bendahmane (INRA, France)</div>
+          <div class="greyTxt">Peter Batt (Australia)</div>
+          <div class="greyTxt">Sylvie Baudino (Univ Lyon, UJM-Saint-Etienne, CNRS, France)</div>
+
+
         </div>
         <div class="blackTitle">Organizing committee:</div>
         <div class="ztList">
-          <div class="greyTxt"></div>
+          <div class="greyTxt">Tianhong Li (China Agricultural University)</div>
+          <div class="greyTxt">Beijing Gardening and Greening Bureau</div>
+          <div class="greyTxt">Mentougou Gardening and Greening Bureau</div>
+          <div class="greyTxt">Junping Gao (China Agricultural University)</div>
+          <div class="greyTxt">Nan Ma (China Agricultural University)</div>
+          <div class="greyTxt">Zuoshuang Zhang (Rose Branch of China Flower Association)</div>
+          <div class="greyTxt">Shiwei Zhao (Rose Branch of China Flower Association)</div>
+          <div class="greyTxt">Shuhua Yang (The Institute of Vegetables and Flowers, CAAS)</div>
+          <div class="greyTxt">Le Luo (Beijing Forestry University)</div>
+          <div class="greyTxt">Yunhe Jiang (China Agricultural University)</div>
+          <div class="greyTxt">Changxi Chen (China Agricultural University)</div>
         </div>
       </div>
     </div>

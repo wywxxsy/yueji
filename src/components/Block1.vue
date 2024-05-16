@@ -1,6 +1,12 @@
 <template>
   <div class="bigBj" id="hyc">
-    <img src="../assets/image/2025.png" class="centerImg" />
+    <!-- <img src="../assets/image/2025.png" class="centerImg" /> -->
+    
+      <el-carousel indicator-position="outside">
+        <el-carousel-item v-for="item in imgList" :key="item.id">
+          <img :src="item.imgUrl" alt="">
+        </el-carousel-item>
+      </el-carousel>
     <div class="contentBox">
       <div class="title" style="padding: 50px 0 0">
         <h2>欢迎词</h2>
@@ -29,7 +35,27 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+  data(){
+    return{
+      imgList:[
+        {
+          id: 'banner1',
+          imgUrl: require("@/assets/image/banner1.jpg")
+        },
+        {
+          id: 'banner2',
+          imgUrl: require("@/assets/image/banner2.jpg")
+        },
+        {
+          id: 'banner3',
+          imgUrl: require("@/assets/image/banner3.jpg")
+        },
+      ]
+    }
+  }
+};
 </script>
 
 <style  scoped>
@@ -44,6 +70,8 @@ export default {};
   background: url(../assets/image/bj.png) no-repeat;
   background-size: 100% 100%;
 }
+
+
 .centerImg {
   width: 1309px;
   margin: 0 auto;
@@ -51,7 +79,7 @@ export default {};
 }
 .contentBox {
   width: 1200px;
-  margin: 110px auto;
+  margin: 30px auto;
   background: #fff;
   box-sizing: border-box;
   padding: 10px 35px;

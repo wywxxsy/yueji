@@ -8,30 +8,30 @@
       <div class="cont2 m_cont2">
         <div class="contBox">
             <div>
-                <p class="contTitle">设计师月季花园</p>
-                <p class="contDesc">花园展位置设置在主入口处，招募 8个国内外具有超前国际视野和设计理念的设计师，对标切尔西花展，充分融合中国人民的花园生活需求为方向打造具有独特设计理念、创新点或创新工艺的实景设计师花园,共同探索中国花园市场。</p>
+                <p class="contTitle">Rose Flower Park</p>
+                <p class="contDesc">The garden exhibition is located at the main entrance, recruiting 8 domestic and foreign designers with advanced international vision and design concepts, to mark the Chelsea Flower Show, fully integrating the garden life needs of the Chinese people to create a unique design concept, innovation point or innovative technology of the real designer garden, and jointly explore the Chinese garden market.</p>
             </div>
             <div><img src="../assets/image/use/test.png" class="wid100"></div>
         </div>
         <div class="contBox">
             <div><img src="../assets/image/use/test.png" class="wid100"></div>
             <div>
-                <p class="contTitle">设计师月季花园</p>
-                <p class="contDesc">花园展位置设置在主入口处，招募 8个国内外具有超前国际视野和设计理念的设计师，对标切尔西花展，充分融合中国人民的花园生活需求为方向打造具有独特设计理念、创新点或创新工艺的实景设计师花园,共同探索中国花园市场。</p>
+                <p class="contTitle">Rose Flower Park</p>
+                <p class="contDesc">The garden exhibition is located at the main entrance, recruiting 8 domestic and foreign designers with advanced international vision and design concepts, to mark the Chelsea Flower Show, fully integrating the garden life needs of the Chinese people to create a unique design concept, innovation point or innovative technology of the real designer garden, and jointly explore the Chinese garden market.</p>
             </div>          
         </div>
         <div class="contBox">
             <div>
-                <p class="contTitle">设计师月季花园</p>
-                <p class="contDesc">花园展位置设置在主入口处，招募 8个国内外具有超前国际视野和设计理念的设计师，对标切尔西花展，充分融合中国人民的花园生活需求为方向打造具有独特设计理念、创新点或创新工艺的实景设计师花园,共同探索中国花园市场。</p>
+                <p class="contTitle">Rose Flower Park</p>
+                <p class="contDesc">The garden exhibition is located at the main entrance, recruiting 8 domestic and foreign designers with advanced international vision and design concepts, to mark the Chelsea Flower Show, fully integrating the garden life needs of the Chinese people to create a unique design concept, innovation point or innovative technology of the real designer garden, and jointly explore the Chinese garden market.</p>
             </div>
             <div><img src="../assets/image/use/test.png" class="wid100"></div>
         </div>
         <div class="contBox">
             <div><img src="../assets/image/use/test.png" class="wid100"></div>
             <div>
-                <p class="contTitle">设计师月季花园</p>
-                <p class="contDesc">花园展位置设置在主入口处，招募 8个国内外具有超前国际视野和设计理念的设计师，对标切尔西花展，充分融合中国人民的花园生活需求为方向打造具有独特设计理念、创新点或创新工艺的实景设计师花园,共同探索中国花园市场。</p>
+                <p class="contTitle">Rose Flower Park</p>
+                <p class="contDesc">The garden exhibition is located at the main entrance, recruiting 8 domestic and foreign designers with advanced international vision and design concepts, to mark the Chelsea Flower Show, fully integrating the garden life needs of the Chinese people to create a unique design concept, innovation point or innovative technology of the real designer garden, and jointly explore the Chinese garden market.</p>
             </div>
         </div>
        
@@ -39,20 +39,20 @@
       <RedTitle :titleCont="title4"></RedTitle>
       <table class="jjrqTable">
         <tr>
-          <td>2023年12月15日</td>
-          <td>活动名称1</td>
+          <td>2023 May 25</td>
+          <td>visit 1.</td>
         </tr>
         <tr>
-          <td>2024年01月15日</td>
-          <td>活动名称2</td>
+          <td>2023 Feb 15</td>
+          <td>visit 2.</td>
         </tr>
         <tr>
-          <td>2024年02月15日</td>
-          <td>活动名称3</td>
+          <td>2023 Feb 20</td>
+          <td>visit 3.</td>
         </tr>
         <tr>
-          <td>2024年05月25日</td>
-          <td>活动名称4</td>
+          <td>2023 Feb 25</td>
+          <td>visit 4.</td>
         </tr>
       </table>
     </div>
@@ -65,10 +65,10 @@
   export default {
     data() {
       return {
-        title: "大会日程",
-        title2:'大会报告日程',
-        title3:'技术参观日程',
-        title4:'社交活动日程',
+        title: "Schedule",
+        title2:'Conference Report Schedule',
+        title3:'Technical visit schedule',
+        title4:'Social activity schedule',
       };
     },
     components: {

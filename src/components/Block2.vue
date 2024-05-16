@@ -19,9 +19,9 @@ export default {
       list: [
         { url: require("../assets/image/f1.png"), nameF: "国际园艺学会" },
         { url:require( "../assets/image/f2.png"), nameF: "北京市人民政府" },
-        { url: require("../assets/image/f3.png"), nameF: "中国园艺学会" },
         { url: require("../assets/image/f4.jpg"), nameF: "中国农业大学" },
         { url: require("../assets/image/f5.jpg"), nameF: "中国花卉协会" },
+        { url: require("../assets/image/f3.png"), nameF: "中国园艺学会" },
 
       ],
     };

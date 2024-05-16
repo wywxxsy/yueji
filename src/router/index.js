@@ -15,6 +15,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/',
+    name: 'eng_index',
+    component: eng_Index,
+    meta:{
+      title:'首页_第九届国际月季大会'
+    }
+  },
+  {
     path: '/index',
     name: 'index',
     component: Index,

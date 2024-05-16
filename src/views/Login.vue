@@ -6,7 +6,7 @@
     <div class="loginBox">
       <p class="inp">
         <img src="../assets/image/icon5.png" />
-        <input type="text" placeholder="请输入登录账号" v-model="UserName" />
+        <input type="text" placeholder="请输入邮箱账号" v-model="Email" />
       </p>
       <p class="inp">
         <img src="../assets/image/icon6.png" />
@@ -54,7 +54,7 @@ export default {
       identifyCodes: "1234567890abcdefjhijklinopqrsduvwxyz", //随机串内容
       identifyCode: "", //这是生成的验证码的值
       tipTxt: "",
-      UserName: "",
+      Email: "",
       Password: "",
       isTxt:false,
     };
@@ -92,11 +92,11 @@ export default {
         try {
           const newPsd =md5(this.Password);
           //  console.log(newPsd, "这是加密后的密码");
-          //console.log(this.$hostUrl);
+          console.log(this.$hostUrl+'/LoginSystem');
           const response = await axios.post(
             this.$hostUrl+'/LoginSystem',
             {
-              UserName: this.UserName,
+              Email: this.Email,
               Password: newPsd,// 加密密码
             }
           );
@@ -108,10 +108,11 @@ export default {
             localStorage.setItem("ID",userInfo.ID);
             localStorage.setItem("Payment",userInfo.Payment);
             localStorage.setItem("Name",userInfo.Name);
-            this.$router.push(this.$route.query.redirect || "/"); //跳转至首页
-          } else if (response.data.Code == "-1") {
+            this.$router.push(this.$route.query.redirect || "/Index"); //跳转至首页
+          } else {
             this.tipTxt = response.data.Message;
           }
+
         } catch (error) {
           console.error(error); // 处理错误情况
         }
@@ -141,7 +142,7 @@ body,
 }
 .container {
   position: relative;
-  background: url(../assets/image/login_bj.jpg) no-repeat;
+  background: url(../assets/image/login_bj_eng.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
