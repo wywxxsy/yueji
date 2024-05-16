@@ -45,7 +45,7 @@ export default {
       const navContents = document.querySelectorAll(
         `.content  ${this.contenterer2}`
       );
-      console.log(navContents);
+      // console.log(navContents);
       const offsetTopArr = [];
       navContents.forEach((item) => {
         offsetTopArr.push(item.offsetTop);
@@ -62,7 +62,7 @@ export default {
     },
     scrollTo(id) {
       const targetOffsetTop = document.getElementById(id).offsetTop;
-      console.log(targetOffsetTop);
+      // console.log(targetOffsetTop);
       let scrollTop =document.documentElement.scrollTop || document.body.scrollTop ;
       const STEP = 50;
       if (scrollTop > targetOffsetTop) {

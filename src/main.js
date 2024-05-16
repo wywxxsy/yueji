@@ -13,10 +13,12 @@ Vue.use(ElementUI);
 Vue.use(Vuelidate);
 
 
-// Vue.prototype.$hostUrl = 'http://123.127.162.223:9997/Interface';
 
-Vue.prototype.$hostUrl = 'http://ht.rose2025.cn/Interface';
 
+//  Vue.prototype.$hostUrl = 'http://ht.rose2025.cn/Interface';
+// Vue.prototype.$hostUrl = 'http://192.168.8.64/Interface'
+ Vue.prototype.$hostUrl = 'http://123.127.162.223:9997/Interface'//域名对应外网ip
+// Vue.prototype.$hostUrl = 'http://192.168.8.223:9997/Interface'//域名对应内网ip
 
 
 

@@ -107,7 +107,7 @@ export default {
             // console.log(userInfo, "这是用户信息");
             localStorage.setItem("ID",userInfo.ID);
             localStorage.setItem("Payment",userInfo.Payment);
-            localStorage.setItem("Name",userInfo.Name);
+            localStorage.setItem("Name",userInfo.FirstName + ' ' + userInfo.LastName);
             this.$router.push(this.$route.query.redirect || "/Index"); //跳转至首页
           } else {
             this.tipTxt = response.data.Message;
