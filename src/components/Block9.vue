@@ -33,7 +33,7 @@
         <div class="ztList">
           <div class="greyTxt">李天红（中国农业大学）</div>
           <div class="greyTxt">北京市园林绿化局</div>
-          <div class="greyTxt">门头沟园林绿化局</div>
+          <div class="greyTxt">门头沟区园林绿化局</div>
           <div class="greyTxt">高俊平（中国农业大学）</div>
           <div class="greyTxt">马男（中国农业大学）</div>
           <div class="greyTxt">张佐双（中国花卉协会月季分会）</div>
@@ -84,7 +84,7 @@ export default {
   line-height: 40px;
 }
 .ztList div {
-  height: 40px;
+  /* height: 40px; */
   line-height: 40px;
 }
 .greyTxt {

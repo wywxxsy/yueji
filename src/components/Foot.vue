@@ -1,9 +1,9 @@
 <template>
   <div class="foot">
 
-    <p> CopyRight © IX International Cherry Symposium 2021</p>
+    <p> CopyRight © IX International Symposium on Rose Research and Cultivation - All rights reserved.</p>
    
-     <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#fff;">京ICP备09053977号-28</a> Email： cherries2021@126.com,9symposium@cherries.org.cn
+     <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#fff;">京ICP备09053977号-28</a> Email： Roses2025@163.com
 
   </div>
 </template>

@@ -23,16 +23,14 @@ This momentous event aims to highlight the remarkable progress of China's rose i
           <!-- <h3>Symposium</h3> -->
           <p>The main topics:</p>
           <div class="left30">
-            S1: International Production, Markets, and Economics<br />
-            S2: Breeding, Genetics, and Genomics<br />
-            S3: Resource collection, utilization and variety evaluation<br />
-            S4: Orchard Production Systems, Management, and Technologies<br />
-            S5: Soil, Nutrient, and Water Research, Management and Technologies<br />
-            S6: Physiology and postharvest biology<br />
-            S7: Pest and Disease Management<br />
-            S8: Postharvest Technologies and Processing<br />
+            S1: Genetics and Genomics<br>
+            S2: Breeding, Social Sciences and Humanities
+            S3: Physiology<br>
+            S4: Secondary Metabolites<br>
+            S5: Biotic and Abiotic stress <br>
+            S6: Postharvest Technologies and Processing<br>
           </div>
-          <p>Keynote speakers：</p>
+          <p>Looking forward to your visit and participation!</p>
         </div>
       </div>
     </div>
@@ -57,6 +55,10 @@ export default {
           id: 'banner3',
           imgUrl: require("@/assets/image/banner3.jpg")
         },
+        {
+          id: 'banner4',
+          imgUrl: require("@/assets/image/banner4.jpg")
+        },
       ]
     }
   }
@@ -70,7 +72,7 @@ export default {
 
 .bigBj {
   width: 100%;
-  height: 1431px;
+  height: 1422px;
   /* background: url(../assets/image/banner.jpg) no-repeat; */
   background: url(../assets/image/bj.png) no-repeat;
   background-size: 100% 100%;
@@ -82,7 +84,7 @@ export default {
 }
 .contentBox {
   width: 1200px;
-  margin: 110px auto;
+  margin: 46px auto;
   background: #fff;
   box-sizing: border-box;
   padding: 10px 35px;

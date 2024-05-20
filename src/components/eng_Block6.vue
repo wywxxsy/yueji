@@ -6,11 +6,7 @@
         Click the button to register
         <span class="redBtn" @click="toRegist">register</span>
       </div>
-      <div class="redTxt">
-        <!-- 国内参会人员请点击此处进行注册
-        <span class="redBtn" @click="toRegist">立即注册</span> -->
-        <p>Registration will be opened from May 1st, 2024</p>
-      </div>
+     
       <RedTitle :titleCont="title2"></RedTitle>
       <table class="jjrqTable">
         <tr>
@@ -39,6 +35,19 @@
           <td>350 USD</td>
         </tr>
       </table>
+      <div class="descBox">
+        <h3 class="mb20">Payment for Overseas Participant </h3>
+        <p>Full payment must be made in advance via bank transfer.</p>
+        <p>Please take notice that your own signature is required while doing payment.</p>
+        <p>Please send a scanned copy of your valid passport to Roses2025@163.com once your payment made.</p>
+        <p>A certificate confirming student status is required to be submitted as a scanned copy to Roses2025@163.com.</p>
+        <p>A personalized confirmation e-mail will be sent to each participant once the payment of the registration fee is received.</p>
+
+      </div>
+
+
+
+
       <div class="descBox">
         <h3 class="mb20">Payment Methods Bank Transfer Details:</h3>
         <p>Notes Registration closed: Apr 30th, 2025</p>

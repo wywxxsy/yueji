@@ -36,7 +36,7 @@
               Last_name is required.
             </p>
           </div>
-          <div class="item">
+          <!-- <div class="item">
             <p><i>*</i>3. Is there an accompanying person?(是否有随行人员?)</p>
             <div class="radio_group">
               <span
@@ -90,23 +90,23 @@
                 /><label for="r6">女</label></span
               >
             </div>
-          </div>
+          </div> -->
 
           <div class="item">
-            <p><i>*</i>6. Registration Type(注册类型)</p>
+            <p><i>*</i>3. Registration Type(注册类型)</p>
             <select v-model="subInfo.RegistrationType">
               <option value="">Please choose</option>
-              <option value="ISHS会员">ISHS会员</option>
-              <option value="非ISHS会员">非ISHS会员</option>
-              <option value="学生">学生</option>
-              <option value="陪同人员">陪同人员</option>
+              <option value="ISHS会员">ISHS member/ISHS会员</option>
+              <option value="非ISHS会员">Non-ISHS member/非ISHS会员</option>
+              <option value="学生">Student/学生</option>
+              <option value="陪同人员">Accompanying person/陪同人员</option>
             </select>
             <p class="redTxt" v-if="!$v.subInfo.RegistrationType.required">
               RegistrationType is required.
             </p>
           </div>
           <div class="item">
-            <p>7. ISHS membership number(ISHS会员编号)</p>
+            <p>4. ISHS membership number(ISHS会员编号)</p>
             <input
               class="textarea"
               placeholder="请输入ISHS会员编号"
@@ -114,7 +114,7 @@
             />
           </div>
           <div class="item">
-            <p><i>*</i>8. Title(称呼)</p>
+            <p><i>*</i>5. Title(称呼)</p>
             <select v-model="subInfo.Title">
               <option value="">Please choose</option>
               <option value="Dr.">Dr.</option>
@@ -127,7 +127,7 @@
             </p>
           </div>
           <div class="item">
-            <p><i>*</i>9. Position(职位)</p>
+            <p><i>*</i>6. Position(职位)</p>
             <input
               class="textarea"
               placeholder="请输入职位"
@@ -138,7 +138,7 @@
             </p>
           </div>
           <div class="item">
-            <p><i>*</i>10. Organization / Institution(组织/机构)</p>
+            <p><i>*</i>7. Organization / Institution(组织/机构)</p>
             <input
               class="textarea"
               placeholder="请输入组织/机构"
@@ -149,7 +149,7 @@
             </p>
           </div>
           <div class="item">
-            <p><i>*</i>11. Country/Region(国家)</p>
+            <p><i>*</i>8. Country/Region(国家)</p>
             <input
               class="textarea"
               placeholder="请输入国家名称"
@@ -160,7 +160,7 @@
             </p>
           </div>
           <div class="item">
-            <p><i>*</i>12. City(城市)</p>
+            <p><i>*</i>9. City(城市)</p>
             <input
               class="textarea"
               placeholder="请输入城市名称"
@@ -171,7 +171,7 @@
             </p>
           </div>
           <div class="item">
-            <p><i>*</i>13. Address(地址)</p>
+            <p><i>*</i>10. Address(地址)</p>
             <input
               class="textarea"
               placeholder="请输入地址"
@@ -183,7 +183,7 @@
           </div>
 
           <div class="item">
-            <p>14. Postal / Zip code(邮政编码)</p>
+            <p>11. Postal / Zip code(邮政编码)</p>
             <input
               class="textarea"
               placeholder="请输入邮政编码"
@@ -192,7 +192,7 @@
           </div>
 
           <div class="item">
-            <p><i>*</i>15. Mobile phone(手机)</p>
+            <p><i>*</i>12. Mobile phone(手机)</p>
             <div class="boxInp">
               <img src="../assets/image/tel.png" />
               <span
@@ -214,7 +214,7 @@
             </div>
           </div>
           <div class="item">
-            <p><i>*</i>16. Email address(邮箱地址)</p>
+            <p><i>*</i>13. Email address(邮箱地址)</p>
             <div class="boxInp">
               <img src="../assets/image/email.png" />
               <input
@@ -232,7 +232,7 @@
           </div>
 
           <div class="item">
-            <p><i>*</i>17. Password(密码)</p>
+            <p><i>*</i>14. Password(密码)</p>
             <div class="boxInp">
               <input
                 type="password"
@@ -250,7 +250,7 @@
             </div>
           </div>
           <div class="item">
-            <p><i>*</i>18. Confirm Password(确认密码)</p>
+            <p><i>*</i>15. Confirm Password(确认密码)</p>
             <div class="boxInp">
               <input
                 type="password"
@@ -267,7 +267,7 @@
             </div>
           </div>
           <div class="item">
-            <p>19. Halal foods?(是否需要清真食品)</p>
+            <p>16. Halal foods?(是否需要清真食品)</p>
             <div class="radio_group">
               <span
                 ><input
@@ -275,7 +275,7 @@
                   name="qz1"
                   v-model="subInfo.Halal"
                   value="是"
-                /><label for="qz1">是</label></span
+                /><label for="qz1">yes</label></span
               >
               <span
                 ><input
@@ -283,12 +283,12 @@
                   name="qz1"
                   v-model="subInfo.Halal"
                   value="否"
-                /><label for="qz2">否</label></span
+                /><label for="qz2">no</label></span
               >
             </div>
           </div>
           <div class="item">
-            <p>20. Vegetarian foods?(是否需要素食)</p>
+            <p>17. Vegetarian foods?(是否需要素食)</p>
             <div class="radio_group">
               <span
                 ><input
@@ -296,7 +296,7 @@
                   name="ss1"
                   v-model="subInfo.SuShi"
                   value="是"
-                /><label for="ss1">是</label></span
+                /><label for="ss1">yes</label></span
               >
               <span
                 ><input
@@ -304,9 +304,27 @@
                   name="ss1"
                   v-model="subInfo.SuShi"
                   value="否"
-                /><label for="ss2">否</label></span
+                /><label for="ss2">no</label></span
               >
             </div>
+          </div>
+
+          <div class="item">
+            <p>18. Billing Address (发票抬头)</p>
+            <input
+              class="textarea"
+              placeholder="请输入发票抬头"
+              v-model="subInfo.BillingAddress"
+            />
+          </div>
+
+          <div class="item">
+            <p>19. VAT Number (单位税号)</p>
+            <input
+              class="textarea"
+              placeholder="请输入单位税号"
+              v-model="subInfo.VATNumber"
+            />
           </div>
           <div class="submitBtn_box">
             <span class="submit_btn" @click="checkFrom">Submit</span>
@@ -355,9 +373,9 @@ export default {
         id: "",
         FirstName: "",
         LastName: "",
-        IsEntourage: "否",
-        EntourageName: "",
-        EntourageSex: "",
+        // IsEntourage: "否",
+        // EntourageName: "",
+        // EntourageSex: "",
         RegistrationType: "",
         ISHSNumber: "",
         Title: "",
@@ -374,6 +392,9 @@ export default {
         confirmPassword: "",
         Halal: "",
         SuShi: "",
+        BillingAddress:"",//new 发票抬头
+        VATNumber:"",//new  单位税号
+
       },
     };
   },
@@ -399,7 +420,7 @@ export default {
     subInfo: {
       FirstName: { required },
       LastName: { required },
-      IsEntourage: { required },
+      // IsEntourage: { required },
       RegistrationType: { required },
       Title: { required },
       Position: { required },

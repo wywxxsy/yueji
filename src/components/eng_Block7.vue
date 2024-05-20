@@ -56,9 +56,9 @@
       <div class="descBox">
         <p class="mb20"> Abstract</p>
         <p class="mb20"> All abstracts and manuscripts must be submitted through ROSA (Responsive Online System for Acta Horticulturae submission and review)</p>
-        <p class="mb20"> ISHS online submission procedures:</p>
-        <p class="mb20">https://www.ishs.org/sites/default/files/page-documents/onlinesubmissionauthorsguide.pdf</p>
-        <p class="mb20">Acta Horticulturae guidelines: https://www.ishs.org/authors</p>
+        <p class="mb20"> <a href="https://www.ishs.org/sites/default/files/page-documents/onlinesubmissionauthorsguide.pdf" target="_blank" class="redTxt">ISHS online submission procedures</a></p>
+       
+        <p class="mb20"><a href="https://www.ishs.org/authors" target="_blank" class="redTxt">Acta Horticulturae guidelines</a></p>
 
         <p class="mb20">● Only abstracts submitted in English will be reviewed.</p>
         <p class="mb20">● Abstracts must not exceed 300 words.</p>
@@ -75,24 +75,24 @@
         </p>
         <p class="mb20">
           ●
-          All oral presenters, must submit a manuscript for Acta Horticulturae according to the Acta Horticulturae guidelines (https://www.ishs.org/authors) by March 1ST, 2025 and will also be notified if the abstract has been selected for an oral or poster presentation. Authors of posters are strongly encouraged to prepare and submit a manuscript for Acta Horticulturae.
+          All oral presenters, must submit a manuscript for Acta Horticulturae according to <a href="https://www.ishs.org/authors" target="_blank" class="redTxt">the Acta Horticulturae guidelines</a>  by March 1ST, 2025 and will also be notified if the abstract has been selected for an oral or poster presentation. Authors of posters are strongly encouraged to prepare and submit a manuscript for Acta Horticulturae.
         </p>
         <p class="mb20">
-          ● All oral presenters, including invited and keynote speakers, must submit a manuscript for Acta Horticulturae according to the Acta Horticulturae guidelines (https://www.ishs.org/authors) by 10 April 2025. Oral presenters who fail to submit a manuscript for publication in Acta Horticulturae or the ISHS Scientific Journal may be refused the floor for making their oral presentation. Authors of posters are strongly encouraged to prepare and submit a manuscript for Acta Horticulturae.
+          ● All oral presenters, including invited and keynote speakers, must submit a manuscript for Acta Horticulturae according to<a href="https://www.ishs.org/authors" target="_blank" class="redTxt"> the Acta Horticulturae guidelines</a>by 10 April 2025. Oral presenters who fail to submit a manuscript for publication in Acta Horticulturae or the ISHS Scientific Journal may be refused the floor for making their oral presentation. Authors of posters are strongly encouraged to prepare and submit a manuscript for Acta Horticulturae.
         </p>
         <p class="mb20">
           ●
           Presenting authors of abstracts accepted for presentation (both oral/poster) must register for the symposium by December 31th, 2024. Failing to register for the symposium will result in your abstract being withdrawn from the symposium program and your manuscript being withdrawn from the Acta Horticulturae symposium proceedings.
         </p>
 
-        <h3>Failing to present (oral/poster) at the symposium will result in your manuscript being withdrawn from the Acta Horticulturae symposium proceedings.</h3>
-        <p class="mb60">
+        <p class="mb60">Failing to present (oral/poster) at the symposium will result in your manuscript being withdrawn from the Acta Horticulturae symposium proceedings.</p>
+        <h3 class="mb20">
           ISHS Young Minds Award
-        </p>
+        </h3>
         <p class="mb20">Two Young Mind Awards for junior scientists will be given:</p>
         <p class="mb20">1. One award for the best oral presentation given by a junior scientist who is in the same time the presenter and first author of the submitted manuscript</p>
         <p class="mb20">2. One award for the best poster presented by a junior scientist who is first author of the work</p>
-        <p class="mb20">A special committee, set up by the symposium convener and an ISHS representative, will be responsible for selecting the awardees. Junior scientists to be eligible for this award must be the lead and presenting author of the submission and should be enrolled in a university or college. He/she can be undergraduate, graduate or postgraduate (limited to 6 months after finishing the program of study), and with an age limit of 35. (https://www.ishs.org/young-minds-award)</p>
+        <p class="mb20">A special committee, set up by the symposium convener and an ISHS representative, will be responsible for selecting the awardees. Junior scientists to be eligible for this award must be the lead and presenting author of the submission and should be enrolled in a university or college. He/she can be undergraduate, graduate or postgraduate (limited to 6 months after finishing the program of study), and with an age limit of 35.<a href="https://www.ishs.org/young-minds-award" target="_blank" class="redTxt">ISHS Young Minds Award</a></p>
         <p class="mb20">Language</p>
         <p class="mb20">The official language of the Symposium is English. However, simultaneous interpretation between English and Chinese will be available at the Opening and Closing ceremonies. All the other sessions are in English.</p>
 

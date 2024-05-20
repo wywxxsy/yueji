@@ -4,8 +4,8 @@
       <div class="contentCenter">
       <RedTitle :titleCont="title2"></RedTitle>
       <img src="../assets/image/use/dhrc.png" alt="大会日程" class="richeng_img" style="margin-bottom:70px">
-      <RedTitle :titleCont="title3" ></RedTitle>
-      <div class="cont2 m_cont2">
+      <RedTitle :titleCont="title3" style="display:none;"></RedTitle>
+      <div class="cont2 m_cont2" style="display:none;">
         <div class="contBox">
             <div>
                 <p class="contTitle">设计师月季花园</p>
@@ -36,8 +36,8 @@
         </div>
        
       </div>
-      <RedTitle :titleCont="title4"></RedTitle>
-      <table class="jjrqTable">
+      <RedTitle :titleCont="title4" style="display:none;"></RedTitle>
+      <table class="jjrqTable" style="display:none;">
         <tr>
           <td>2023年12月15日</td>
           <td>活动名称1</td>

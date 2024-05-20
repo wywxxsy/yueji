@@ -45,7 +45,7 @@
         </div>
         <div class="ml20"  @click="to_engIndex">
           <img src="../assets/image/icon_world.png"  />
-          <span>中/英</span>
+          <span>中/En</span>
         </div>
       </div>
       <a href="javascript:void(0);" @click="toggleNav" class="toggleNav" :class="isToggle?'':'toggleArrow'"><img src="../assets/image/list.png"></a>

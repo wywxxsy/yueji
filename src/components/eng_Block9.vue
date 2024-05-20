@@ -37,8 +37,8 @@
           <div class="greyTxt">Mentougou Gardening and Greening Bureau</div>
           <div class="greyTxt">Junping Gao (China Agricultural University)</div>
           <div class="greyTxt">Nan Ma (China Agricultural University)</div>
-          <div class="greyTxt">Zuoshuang Zhang (Rose Branch of China Flower Association)</div>
-          <div class="greyTxt">Shiwei Zhao (Rose Branch of China Flower Association)</div>
+          <div class="greyTxt">Zuoshuang Zhang (Chinese Rose Society of China Flower Association)</div>
+          <div class="greyTxt">Shiwei Zhao (Chinese Rose Society of China Flower Association)</div>
           <div class="greyTxt">Shuhua Yang (The Institute of Vegetables and Flowers, CAAS)</div>
           <div class="greyTxt">Le Luo (Beijing Forestry University)</div>
           <div class="greyTxt">Yunhe Jiang (China Agricultural University)</div>
@@ -85,7 +85,7 @@ export default {
   line-height: 40px;
 }
 .ztList div {
-  height: 40px;
+  /* height: 40px; */
   line-height: 40px;
 }
 .greyTxt {

@@ -19,13 +19,12 @@
          
           <p>本届大会主要议题包括：</p>
           <div class="left30">
-            S1:世界产业、市场与经济<br />S2:育种、遗传学和基因组学<br />
-            S3:砧木和品种评价<br />
-            S4:果园生产系统及管理与技术<br />
-            S5:土肥水研究及管理与技术<br />
-            S6:树体生理与繁殖生物学<br />
-            S7:病虫害防治<br />
-            S8:采后技术与加工<br />
+            专题1：遗传学和基因组学<br>
+            专题2：育种、社会科学和人类学<br>
+            专题3：生理学<br>
+            专题4：次级代谢<br>
+            专题5：生物与非生物胁迫<br>
+            专题6：采后技术与加工<br>
           </div>
           <p>期待您的光临和参与！</p>
         </div>
@@ -52,6 +51,10 @@ export default {
           id: 'banner3',
           imgUrl: require("@/assets/image/banner3.jpg")
         },
+        {
+          id: 'banner4',
+          imgUrl: require("@/assets/image/banner4.jpg")
+        },
       ]
     }
   }
@@ -65,7 +68,7 @@ export default {
 
 .bigBj {
   width: 100%;
-  height: 1431px;
+  height: 1322px;
   /* background: url(../assets/image/banner.jpg) no-repeat; */
   background: url(../assets/image/bj.png) no-repeat;
   background-size: 100% 100%;
@@ -79,7 +82,7 @@ export default {
 }
 .contentBox {
   width: 1200px;
-  margin: 30px auto;
+  margin: 0px auto;
   background: #fff;
   box-sizing: border-box;
   padding: 10px 35px;

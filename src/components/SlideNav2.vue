@@ -43,7 +43,7 @@ export default {
   margin-top: 10px;
 }
 .sidebar-nav {
-  z-index: 100;
+  z-index: 999;
   position: fixed;
   right: 0;
   bottom: 300px;

@@ -16,8 +16,8 @@ export default {
       list:[
         'Beijing Gardening and Greening Bureau',
         "Mentougou District People's Government of Beijing Municipality",
-        'Rose Branch of China Flower Association',
-        'College of Horticulture - China Agricultural University',
+        'Chinese Rose Society of China Flower Association',
+        'College of Horticulture China Agricultural University',
         'Beijing Flower Association'
       ]
 
@@ -34,6 +34,6 @@ export default {
   background: #fff;
   padding: 50px 0 65px 0;
 }
-.list{width:1200px; margin:0 auto 50px auto;display: flex; justify-content: left;}
+.list{width:1200px; margin:0 auto 50px auto;display: flex; justify-content: left;flex-wrap: wrap;}
 .list p{display: block;line-height: 26px; width:20%;text-align: center;font-size:18px;font-weight: bold;color:#4a4a4a;}
 </style>

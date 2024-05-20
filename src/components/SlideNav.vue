@@ -105,7 +105,7 @@ export default {
   margin-top: 10px;
 }
 .sidebar-nav {
-  z-index:10;
+  z-index:999;
   position: fixed;
   right: 0;
   bottom: 100px;

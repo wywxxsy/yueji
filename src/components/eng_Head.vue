@@ -42,11 +42,11 @@
         <div v-show="logState!==''">
           <img src="../assets/image/icon_user.png"  />
           <span>{{userName}}</span>
-          <span @click="toLogout"> [退出]</span>
+          <span @click="toLogout"> [logout]</span>
         </div>
         <div class="ml20" @click="to_Index">
           <img src="../assets/image/icon_world.png"  />
-          <span>中/英</span>
+          <span>中/En</span>
         </div>
       </div>
       <a href="javascript:void(0);" @click="toggleNav" class="toggleNav" :class="isToggle?'':'toggleArrow'"><img src="../assets/image/list.png"></a>

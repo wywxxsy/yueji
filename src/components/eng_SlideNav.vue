@@ -114,6 +114,7 @@ export default {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   border-left: 2px solid #fff;
+  z-index:999;
 }
 .sidebar-nav ul {
   list-style-type: none;
