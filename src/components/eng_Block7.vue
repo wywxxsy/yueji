@@ -109,7 +109,7 @@ import RedTitle from "@/components/RedTitle.vue";
 export default {
   data() {
     return {
-      title: "submit",
+      title: "Submit",
       title2: "Abstract/Full text",
       title3: "Important Dates",
     };

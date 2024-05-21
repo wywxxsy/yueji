@@ -5,7 +5,9 @@
       <img src="../assets/image/use/map_mtg.jpg" class="Map" />
       <RedTitle :titleCont="title4"></RedTitle>
       <div class="descBox">
-        <p class="mb20">由中粮集团创建的忠良书院，坐落于北京市生态涵养区——门头沟区。忠良书院建筑面积5万平方米，配套客房、会议、餐厅、美特运动中心等设施。其先进的设施设备、细致周到的服务、优美的自然环境和浓厚的文化氛围，成为京西地区首屈一指的会议活动场所。</p>
+        <p class="mb20">
+          由中粮集团创建的忠良书院，坐落于北京市生态涵养区——门头沟区。忠良书院建筑面积5万平方米，配套客房、会议、餐厅、美特运动中心等设施。其先进的设施设备、细致周到的服务、优美的自然环境和浓厚的文化氛围，成为京西地区首屈一指的会议活动场所。
+        </p>
       </div>
       <div class="jtBox">
         <div class="wid50">
@@ -16,12 +18,12 @@
           <div class="pd35">
             <div class="redTitle">机场：</div>
             <div class="greyContent">
-              <p>北京首都机场（距离会展102公里）</p>
+              <p>北京首都机场（距离会场65公里）</p>
+              <span>
+                首都机场大巴北京西站线 → 890路担礼/890路。<br />大约需要三小时五十分钟到达，花费37元人民币。</span>
+              <p>北京大兴机场（距会场约80公里）</p>
               <span
-                >经京密路——北五环路——西五环路——阜石路——到达会场<br/>
-                <p>北京大兴机场（距会场约77公里）</p>
-经大兴机场高速——南五环路——西五环路——阜石路——到达会场</span
-              >
+                >大兴机场线 → 地铁10号线内环 → 890路担礼/890路。<br />大约需要两小时五十分钟到达，花费46元人民币。</span>
             </div>
             <div class="redTitle">公交：</div>
             <div class="greyContent">
@@ -38,12 +40,12 @@
             <span>自驾/出租车</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">目的地：</div>
+            <div class="redTitle">目的地：门头沟忠良书院</div>
             <div class="greyContent">
-              <p>门头沟忠良书院</p>
-              <span
-                >自驾与出租车出行人员可前往西五环路方向——阜石路——到达会场</span
-              >
+              <p>起点：北京首都机场</p>
+              <span>打车约260元人民币。<br />大约需要一小时十分钟到达。</span>
+              <p>起点：北京大兴机场</p>
+              <span>打车约300元人民币。<br />大约需要一小时二十分钟到达。</span>
             </div>
           </div>
         </div>
@@ -56,7 +58,7 @@
           <div class="pd35">
             <div class="redTitle">门头沟区忠良书院：</div>
             <div class="greyContent">
-              <span>2025第九届国际月季大会由组委会安排在门头沟区忠良书院举办，同时，参会人员的住宿也安排于此。</span>
+              <span>所有参会人员的住宿及会议在此。</span>
             </div>
           </div>
         </div>
@@ -70,11 +72,8 @@
             <div class="redTitle">签证信息：</div>
             <div class="greyContent">
               <!-- <p>北京首都机场（距离会展102公里）</p> -->
-              <span
-                >暂无</span
-              >
+              <span>暂无</span>
             </div>
-            
           </div>
         </div>
       </div>
@@ -93,7 +92,8 @@ export default {
     };
   },
   components: {
-    Title,RedTitle
+    Title,
+    RedTitle,
   },
 };
 </script>
@@ -103,7 +103,10 @@ export default {
   background: #f6f6f6;
   padding: 50px 0 0px 0;
 }
-.Map{width:100%;border:1px solid #ddd;}
+.Map {
+  width: 100%;
+  border: 1px solid #ddd;
+}
 .centerBox {
   width: 1200px;
   margin: 0 auto;

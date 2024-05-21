@@ -60,8 +60,8 @@
 
 
         <h3> Cancellation Policy</h3>
-        <p>Cancellations before Nov. 1ST, 2024: 50% penalty fare over the total fee.</p>
-        <p>Cancellations after Nov. 1ST, 2024: 100% penalty fares over the total fee.</p>
+        <p>Cancellations before Nov. 1ST, 2024: deducting 50% of total expenses.</p>
+        <p>Cancellations after Nov. 1ST, 2024: deducting 100% of total expenses.</p>
       </div>
     </div>
   </div>

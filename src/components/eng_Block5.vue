@@ -3,7 +3,7 @@
       <Title :name="title"></Title>
       <div class="contentCenter">
       <RedTitle :titleCont="title2"></RedTitle>
-      <img src="../assets/image/use/eng_dhrc.png" alt="大会日程" class="richeng_img" style="margin-bottom:70px">
+      <img src="../assets/image/use/eng_dhrc.jpg" alt="大会日程" class="richeng_img" style="margin-bottom:70px">
       <RedTitle :titleCont="title3" style="display:none;"></RedTitle>
       <div class="cont2 m_cont2" style="display:none;">
         <div class="contBox">

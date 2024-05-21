@@ -5,7 +5,7 @@
       <img src="../assets/image/use/map_mtg.jpg" class="Map" />
       <RedTitle :titleCont="title4"></RedTitle>
       <div class="descBox">
-        <p class="mb20">Zhongliang Academy, founded by COFCO Group, is located in Mentougou District, an ecological conservation area in Beijing. Zhongliang Academy has a building area of 50000 square meters and is equipped with facilities such as guest rooms, conferences, restaurants, and Meite Sports Center. Its advanced facilities and equipment, meticulous and thoughtful services, beautiful natural environment, and strong cultural atmosphere have become the leading venue for conference activities in the western region of Beijing.</p>
+        <p class="mb20">Zhongliang College, founded by COFCO Group, is located in Mentougou District, an ecological conservation area in Beijing. Zhongliang College has a building area of 50000 square meters and is equipped with facilities such as guest rooms, conferences, restaurants, and Meite Sports Center. Its advanced facilities and equipment, meticulous and thoughtful services, beautiful natural environment, and strong cultural atmosphere have become the leading venue for conference activities in the western region of Beijing.</p>
       </div>
       <div class="jtBox">
         <div class="wid50">
@@ -16,12 +16,12 @@
           <div class="pd35">
             <div class="redTitle">airport：</div>
             <div class="greyContent">
-              <p>Beijing Capital Airport (102 kilometers away from the exhibition)</p>
+              <p>Beijing Capital Airport (65 kilometers away from the venue)</p>
+              <span>
+                Capital Airport Bus Beijing West Station Line → Route 890.<br />It will take approximately 3 hours and 50 minutes to arrive, costing 37 RMB.</span>
+              <p>Beijing Daxing Airport (approximately 80 kilometers from the venue)</p>
               <span
-                >Jingmi Road - North Fifth Ring Road - West Fifth Ring Road - Fushi Road - Arrive at the venue<br/>
-                <p>Beijing Daxing Airport (approximately 77 kilometers from the venue)</p>
-                Daxing Airport Expressway - South Fifth Ring Road - West Fifth Ring Road - Fushi Road - Arrive at the venue</span
-              >
+                >Daxing Airport Line → Inner Ring of Metro Line 10 → Route 890.<br />It will take approximately 2 hours and 50 minutes to arrive, costing 46 RMB.</span>
             </div>
             <div class="greyContent">
               <div class="redTitle">transit：</div>
@@ -38,12 +38,12 @@
             <span>Drive</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">Destination：</div>
+            <div class="redTitle">Destination: Zhongliang College in Mentougou</div>
             <div class="greyContent">
-              <p>Mentougou Zhongliang Academy</p>
-              <span
-                >Self driving and taxi drivers can go to the direction of West Fifth Ring Road - Fushi Road - to reach the venue</span
-              >
+              <p>Starting point: Beijing Capital Airport</p>
+              <span>Taking a taxi costs about 260 RMB.<br />It will take approximately 1h10mins to arrive.</span>
+              <p>Starting point: Beijing Daxing Airport</p>
+              <span>Taking a taxi costs about 300 RMB.<br />It will take approximately 1h20mins to arrive.</span>
             </div>
           </div>
         </div>
@@ -54,9 +54,9 @@
             <span>Accommodation</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">Zhongliang Academy in Mentougou District：</div>
+            <div class="redTitle">Zhongliang College in Mentougou District：</div>
             <div class="greyContent">
-              <span>The 9th International Rose Conference in 2025 will be organized by the organizing committee at Zhongliang Academy in Mentougou District, and the accommodation for attendees will also be arranged here.</span>
+              <span>All attendees' accommodation and meetings are here.</span>
             </div>
           </div>
         </div>
@@ -88,8 +88,8 @@ import RedTitle from "@/components/RedTitle.vue";
 export default {
   data() {
     return {
-      title: "Venue Travel",
-      title4: "Introduction to Zhongliang Academy",
+      title: "Transportation and Accommodation",
+      title4: "Introduction to Zhongliang College",
     };
   },
   components: {
