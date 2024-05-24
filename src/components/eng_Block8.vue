@@ -5,7 +5,7 @@
       <img src="../assets/image/use/map_mtg.jpg" class="Map" />
       <RedTitle :titleCont="title4"></RedTitle>
       <div class="descBox">
-        <p class="mb20">Zhongliang College, founded by COFCO Group, is located in Mentougou District, an ecological conservation area in Beijing. Zhongliang College has a building area of 50000 square meters and is equipped with facilities such as guest rooms, conferences, restaurants, and Meite Sports Center. Its advanced facilities and equipment, meticulous and thoughtful services, beautiful natural environment, and strong cultural atmosphere have become the leading venue for conference activities in the western region of Beijing.</p>
+        <p class="mb20">COFCO Leadership Development Center, founded by COFCO Group, is located in Mentougou District, an ecological conservation area in Beijing. COFCO Leadership Development Center has a building area of 50000 square meters and is equipped with facilities such as guest rooms, conferences, restaurants, and Meite Sports Center. Its advanced facilities and equipment, meticulous and thoughtful services, beautiful natural environment, and strong cultural atmosphere have become the leading venue for conference activities in the western region of Beijing.</p>
       </div>
       <div class="jtBox">
         <div class="wid50">
@@ -38,7 +38,7 @@
             <span>Drive</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">Destination: Zhongliang College in Mentougou</div>
+            <div class="redTitle">Destination: COFCO Leadership Development Center in Mentougou</div>
             <div class="greyContent">
               <p>Starting point: Beijing Capital Airport</p>
               <span>Taking a taxi costs about 260 RMB.<br />It will take approximately 1h10mins to arrive.</span>
@@ -54,7 +54,7 @@
             <span>Accommodation</span>
           </div>
           <div class="pd35">
-            <div class="redTitle">Zhongliang College in Mentougou District：</div>
+            <div class="redTitle">COFCO Leadership Development Center in Mentougou District：</div>
             <div class="greyContent">
               <span>All attendees' accommodation and meetings are here.</span>
             </div>
@@ -89,7 +89,7 @@ export default {
   data() {
     return {
       title: "Transportation and Accommodation",
-      title4: "Introduction to Zhongliang College",
+      title4: "Introduction to COFCO Leadership Development Center",
     };
   },
   components: {

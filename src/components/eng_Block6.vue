@@ -39,8 +39,8 @@
         <h3 class="mb20">Payment for Overseas Participant </h3>
         <p>Full payment must be made in advance via bank transfer.</p>
         <p>Please take notice that your own signature is required while doing payment.</p>
-        <p>Please send a scanned copy of your valid passport to Roses2025@163.com once your payment made.</p>
-        <p>A certificate confirming student status is required to be submitted as a scanned copy to Roses2025@163.com.</p>
+        <p>Please send a scanned copy of your valid passport to <span style="color:#f00">Roses2025@163.com</span> once your payment made.</p>
+        <p>A certificate confirming student status is required to be submitted as a scanned copy to <span style="color:#f00">Roses2025@163.com</span>.</p>
         <p>A personalized confirmation e-mail will be sent to each participant once the payment of the registration fee is received.</p>
 
       </div>
@@ -59,9 +59,13 @@
         <p class="mb20">REMARK/REFERENCE/NOTE: rose2025+YOUR SURNAME</p>
 
 
-        <h3> Cancellation Policy</h3>
-        <p>Cancellations before Nov. 1ST, 2024: deducting 50% of total expenses.</p>
-        <p>Cancellations after Nov. 1ST, 2024: deducting 100% of total expenses.</p>
+        <h3>Cancellation and Refund Policy</h3>
+        <p>
+          <span style="color:#f00">Before Nov. 1ST, 2024:</span></p> 
+          <p>Cancellations notified in writing by Nov. 1ST, 2024 will be refundable minus an administrative fee of 40 USD incurred during the refund process.</p>
+        <p>
+          <span style="color:#f00">After Nov. 1ST, 2024:</span></p> 
+          <p> No refunds will be granted.</p>
       </div>
     </div>
   </div>
@@ -74,7 +78,7 @@ export default {
   data() {
     return {
       title: "Registration",
-      title2: "Deadline",
+      title2: "Registration Fee",
       title3: "注册费&陪同人员费用",
     };
   },

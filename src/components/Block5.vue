@@ -3,7 +3,7 @@
       <Title :name="title"></Title>
       <div class="contentCenter">
       <RedTitle :titleCont="title2"></RedTitle>
-      <img src="../assets/image/use/dhrc.png" alt="大会日程" class="richeng_img" style="margin-bottom:70px">
+      <img src="../assets/image/use/dhrc.jpg" alt="大会日程" class="richeng_img" style="margin-bottom:70px">
       <RedTitle :titleCont="title3" style="display:none;"></RedTitle>
       <div class="cont2 m_cont2" style="display:none;">
         <div class="contBox">
@@ -11,10 +11,10 @@
                 <p class="contTitle">设计师月季花园</p>
                 <p class="contDesc">花园展位置设置在主入口处，招募 8个国内外具有超前国际视野和设计理念的设计师，对标切尔西花展，充分融合中国人民的花园生活需求为方向打造具有独特设计理念、创新点或创新工艺的实景设计师花园,共同探索中国花园市场。</p>
             </div>
-            <div><img src="../assets/image/use/test.png" class="wid100"></div>
+            <div><img src="../assets/image/use/dhrc.jpg" class="wid100"></div>
         </div>
         <div class="contBox">
-            <div><img src="../assets/image/use/test.png" class="wid100"></div>
+            <div><img src="../assets/image/use/dhrc.jpg" class="wid100"></div>
             <div>
                 <p class="contTitle">设计师月季花园</p>
                 <p class="contDesc">花园展位置设置在主入口处，招募 8个国内外具有超前国际视野和设计理念的设计师，对标切尔西花展，充分融合中国人民的花园生活需求为方向打造具有独特设计理念、创新点或创新工艺的实景设计师花园,共同探索中国花园市场。</p>
@@ -25,10 +25,10 @@
                 <p class="contTitle">设计师月季花园</p>
                 <p class="contDesc">花园展位置设置在主入口处，招募 8个国内外具有超前国际视野和设计理念的设计师，对标切尔西花展，充分融合中国人民的花园生活需求为方向打造具有独特设计理念、创新点或创新工艺的实景设计师花园,共同探索中国花园市场。</p>
             </div>
-            <div><img src="../assets/image/use/test.png" class="wid100"></div>
+            <div><img src="../assets/image/use/dhrc.jpg" class="wid100"></div>
         </div>
         <div class="contBox">
-            <div><img src="../assets/image/use/test.png" class="wid100"></div>
+            <div><img src="../assets/image/use/dhrc.jpg" class="wid100"></div>
             <div>
                 <p class="contTitle">设计师月季花园</p>
                 <p class="contDesc">花园展位置设置在主入口处，招募 8个国内外具有超前国际视野和设计理念的设计师，对标切尔西花展，充分融合中国人民的花园生活需求为方向打造具有独特设计理念、创新点或创新工艺的实景设计师花园,共同探索中国花园市场。</p>

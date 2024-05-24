@@ -25,7 +25,7 @@ export default {
       {title:'Schedule',route:'eng_dhrc'},
       {title:'Registration',route:'eng_regist'},
       {title:'Abstract/Full text',route:'eng_zytj'},
-      {title:'Venue Travel',route:'eng_jtzs'},
+      {title:'Transportation',route:'eng_jtzs'},
       {title:'Committees',route:'eng_wyh'},
       ],
       active: 0,

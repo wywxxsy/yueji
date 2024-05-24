@@ -63,7 +63,7 @@
           </div>
         </div>
 
-        <div class="wid50">
+        <!-- <div class="wid50">
           <div class="blueTitle">
             <img src="../assets/image/icon4.png" />
             <span>关于签证</span>
@@ -71,11 +71,10 @@
           <div class="pd35">
             <div class="redTitle">签证信息：</div>
             <div class="greyContent">
-              <!-- <p>北京首都机场（距离会展102公里）</p> -->
               <span>暂无</span>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

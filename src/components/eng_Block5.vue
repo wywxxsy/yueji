@@ -11,10 +11,10 @@
                 <p class="contTitle">Rose Flower Park</p>
                 <p class="contDesc">The garden exhibition is located at the main entrance, recruiting 8 domestic and foreign designers with advanced international vision and design concepts, to mark the Chelsea Flower Show, fully integrating the garden life needs of the Chinese people to create a unique design concept, innovation point or innovative technology of the real designer garden, and jointly explore the Chinese garden market.</p>
             </div>
-            <div><img src="../assets/image/use/test.png" class="wid100"></div>
+            <div><img src="../assets/image/use/dhrc.jpg" class="wid100"></div>
         </div>
         <div class="contBox">
-            <div><img src="../assets/image/use/test.png" class="wid100"></div>
+            <div><img src="../assets/image/use/dhrc.jpg" class="wid100"></div>
             <div>
                 <p class="contTitle">Rose Flower Park</p>
                 <p class="contDesc">The garden exhibition is located at the main entrance, recruiting 8 domestic and foreign designers with advanced international vision and design concepts, to mark the Chelsea Flower Show, fully integrating the garden life needs of the Chinese people to create a unique design concept, innovation point or innovative technology of the real designer garden, and jointly explore the Chinese garden market.</p>
@@ -25,10 +25,10 @@
                 <p class="contTitle">Rose Flower Park</p>
                 <p class="contDesc">The garden exhibition is located at the main entrance, recruiting 8 domestic and foreign designers with advanced international vision and design concepts, to mark the Chelsea Flower Show, fully integrating the garden life needs of the Chinese people to create a unique design concept, innovation point or innovative technology of the real designer garden, and jointly explore the Chinese garden market.</p>
             </div>
-            <div><img src="../assets/image/use/test.png" class="wid100"></div>
+            <div><img src="../assets/image/use/dhrc.jpg" class="wid100"></div>
         </div>
         <div class="contBox">
-            <div><img src="../assets/image/use/test.png" class="wid100"></div>
+            <div><img src="../assets/image/use/dhrc.jpg" class="wid100"></div>
             <div>
                 <p class="contTitle">Rose Flower Park</p>
                 <p class="contDesc">The garden exhibition is located at the main entrance, recruiting 8 domestic and foreign designers with advanced international vision and design concepts, to mark the Chelsea Flower Show, fully integrating the garden life needs of the Chinese people to create a unique design concept, innovation point or innovative technology of the real designer garden, and jointly explore the Chinese garden market.</p>
