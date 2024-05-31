@@ -4,7 +4,7 @@
     <div class="contentCenter">
       <div class="pinkBj">
         <div>所有摘要和全文必须通过以下链接提交</div>
-        <div><a href="https://www.actahort.org/members/symposiar?nr=744" target="_blank" class="redBtn">摘要提交</a></div>
+        <div><a href="https://www.actahort.org/members/symposiar?nr=810" target="_blank" class="redBtn">摘要提交</a></div>
       </div>
       <div class="mb40">
         <a

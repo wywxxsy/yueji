@@ -35,6 +35,11 @@
           <td>350 USD</td>
         </tr>
       </table>
+      <div class="descBox mb20">
+        <p>The registration fee includes online access to the electronic version of the Acta Horticulturae symposium proceedings.</p>
+        <p>ISHS membership:<a href="https://www.ishs.org/members" target="_blank" class="redTxt">https://www.ishs.org/members</a> </p>    
+      </div>
+      
       <div class="descBox">
         <h3 class="mb20">Payment for Overseas Participant </h3>
         <p>Full payment must be made in advance via bank transfer.</p>

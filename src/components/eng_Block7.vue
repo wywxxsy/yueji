@@ -3,8 +3,8 @@
     <Title :name="title"></Title>
     <div class="contentCenter">
       <div class="pinkBj">
-        <div>Submit through the following link</div>
-        <div><a href="https://www.actahort.org/members/symposiar?nr=744" target="_blank" class="redBtn">submit</a></div>
+        <div>Submit your abstract and paper through the following link</div>
+        <div><a href="https://www.actahort.org/members/symposiar?nr=810" target="_blank" class="redBtn">submit</a></div>
       </div>
       <div class="mb40">
         <a
@@ -22,7 +22,7 @@
         <div class="wid30">
           <div class="descBox">
             <p class="mb20">
-              The author submitting the report must first register and complete the payment. We only accept authors who have completed registration and paid fees, and individuals who have completed registration but do not intend to make reports need to complete payment as soon as possible.
+              The author submitting the abstract must register and complete the payment. We only accept authors who have completed registration and paid fees, and individuals who have completed registration but do not intend to make reports need to complete payment as soon as possible.
             </p>
           </div>
         </div>
@@ -67,16 +67,16 @@
         <p class="mb20">● Abstracts should be thoroughly checked for spelling and grammar.</p>
         <p class="mb20">
           ●
-          An abstract submission charge is due upon submission of an abstract and applies to the presenting author only. For ISHS Individual members, the abstract submission charge is fully waived. Those who do not hold a user account with ISHS yet: create an ISHS user account first at International Society for Horticultural Science. After payment and activation of your user account, you can start your abstract submission.
+          An abstract submission charge is due upon submission of an abstract and applies to the presenting author only. For ISHS Individual members, the abstract submission charge is fully waived. Those who do not hold a user account with ISHS yet: create an ISHS user account first at <a href="https://www.actahort.org/members/newmember?asc=1" target="_blank" class="redTxt">https://www.actahort.org/members/newmember?asc=1</a>. After payment and activation of your user account, you can start your abstract submission.
         </p>
         <p class="mb20">
           ●
           Abstracts must always be submitted by the presenting author, using their own personal ISHS user account. Submitting an abstract on behalf of or using the ISHS user account of another author is strictly not permitted.
         </p>
-        <p class="mb20">
+        <!-- <p class="mb20">
           ●
           All oral presenters, must submit a manuscript for Acta Horticulturae according to <a href="https://www.ishs.org/authors" target="_blank" class="redTxt">the Acta Horticulturae guidelines</a>  by March 1ST, 2025 and will also be notified if the abstract has been selected for an oral or poster presentation. Authors of posters are strongly encouraged to prepare and submit a manuscript for Acta Horticulturae.
-        </p>
+        </p> -->
         <p class="mb20">
           ● All oral presenters, including invited and keynote speakers, must submit a manuscript for Acta Horticulturae according to<a href="https://www.ishs.org/authors" target="_blank" class="redTxt"> the Acta Horticulturae guidelines</a> by 10 April 2025. Oral presenters who fail to submit a manuscript for publication in Acta Horticulturae or the ISHS Scientific Journal may be refused the floor for making their oral presentation. Authors of posters are strongly encouraged to prepare and submit a manuscript for Acta Horticulturae.
         </p>
